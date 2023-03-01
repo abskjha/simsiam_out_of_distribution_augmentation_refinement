@@ -1,0 +1,2 @@
+# simsiam_out_of_distribution_augmentation_refinement
+Refining the augmentation process using out of distribution detection
