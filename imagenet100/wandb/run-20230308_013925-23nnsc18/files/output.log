@@ -1,0 +1,3 @@
+
+| distributed init (rank 3): env://
+main_simsiam_imagenet100_ood_aug_remove_samples_during_train.py:162: UserWarning: You have chosen a specific GPU. This will completely disable data parallelism.

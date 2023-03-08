@@ -1,0 +1,260 @@
+2023-03-06 11:36:12,205 INFO    MainThread:19663 [internal.py:wandb_internal():93] W&B internal server running at pid: 19663, started at: 2023-03-06 11:36:12.204406
+2023-03-06 11:36:12,210 INFO    WriterThread:19663 [datastore.py:open_for_write():75] open: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113612-3ql0e7v2/run-3ql0e7v2.wandb
+2023-03-06 11:36:12,215 DEBUG   SenderThread:19663 [sender.py:send():236] send: header
+2023-03-06 11:36:12,240 DEBUG   SenderThread:19663 [sender.py:send():236] send: run
+2023-03-06 11:36:12,434 DEBUG   HandlerThread:19663 [handler.py:handle_request():140] handle_request: check_version
+2023-03-06 11:36:12,444 INFO    SenderThread:19663 [dir_watcher.py:__init__():216] watching files in: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113612-3ql0e7v2/files
+2023-03-06 11:36:12,446 INFO    SenderThread:19663 [sender.py:_start_run_threads():818] run started: 3ql0e7v2 with start time 1678098972
+2023-03-06 11:36:12,446 DEBUG   SenderThread:19663 [sender.py:send():236] send: summary
+2023-03-06 11:36:12,447 INFO    SenderThread:19663 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 11:36:12,447 DEBUG   SenderThread:19663 [sender.py:send_request():250] send_request: check_version
+2023-03-06 11:36:12,513 DEBUG   HandlerThread:19663 [handler.py:handle_request():140] handle_request: run_start
+2023-03-06 11:36:12,521 DEBUG   HandlerThread:19663 [meta.py:__init__():35] meta init
+2023-03-06 11:36:12,522 DEBUG   HandlerThread:19663 [meta.py:__init__():49] meta init done
+2023-03-06 11:36:12,522 DEBUG   HandlerThread:19663 [meta.py:probe():209] probe
+2023-03-06 11:36:12,528 DEBUG   HandlerThread:19663 [meta.py:_setup_git():199] setup git
+2023-03-06 11:36:12,576 DEBUG   HandlerThread:19663 [meta.py:_setup_git():206] setup git done
+2023-03-06 11:36:12,577 DEBUG   HandlerThread:19663 [meta.py:_save_pip():53] save pip
+2023-03-06 11:36:12,578 DEBUG   HandlerThread:19663 [meta.py:_save_pip():67] save pip done
+2023-03-06 11:36:12,579 DEBUG   HandlerThread:19663 [meta.py:_save_conda():74] save conda
+2023-03-06 11:36:13,448 INFO    Thread-8  :19663 [dir_watcher.py:_on_file_created():269] file/dir created: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113612-3ql0e7v2/files/wandb-summary.json
+2023-03-06 11:36:13,449 INFO    Thread-8  :19663 [dir_watcher.py:_on_file_created():269] file/dir created: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113612-3ql0e7v2/files/requirements.txt
+2023-03-06 11:36:13,449 INFO    Thread-8  :19663 [dir_watcher.py:_on_file_created():269] file/dir created: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113612-3ql0e7v2/files/conda-environment.yaml
+2023-03-06 11:36:15,451 INFO    Thread-8  :19663 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113612-3ql0e7v2/files/conda-environment.yaml
+2023-03-06 11:36:15,517 DEBUG   HandlerThread:19663 [meta.py:_save_conda():84] save conda done
+2023-03-06 11:36:15,517 DEBUG   HandlerThread:19663 [meta.py:probe():247] probe done
+2023-03-06 11:36:15,598 DEBUG   SenderThread:19663 [sender.py:send():236] send: files
+2023-03-06 11:36:15,598 INFO    SenderThread:19663 [sender.py:_save_file():952] saving file wandb-metadata.json with policy now
+2023-03-06 11:36:15,607 DEBUG   HandlerThread:19663 [handler.py:handle_request():140] handle_request: stop_status
+2023-03-06 11:36:15,608 DEBUG   SenderThread:19663 [sender.py:send_request():250] send_request: stop_status
+2023-03-06 11:36:15,753 DEBUG   SenderThread:19663 [sender.py:send():236] send: telemetry
+2023-03-06 11:36:15,754 DEBUG   SenderThread:19663 [sender.py:send():236] send: config
+2023-03-06 11:36:16,083 INFO    Thread-12 :19663 [upload_job.py:push():138] Uploaded file /tmp/tmpis8q01scwandb/4044xqdh-wandb-metadata.json
+2023-03-06 11:36:16,452 INFO    Thread-8  :19663 [dir_watcher.py:_on_file_created():269] file/dir created: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113612-3ql0e7v2/files/wandb-metadata.json
+2023-03-06 11:36:16,453 INFO    Thread-8  :19663 [dir_watcher.py:_on_file_created():269] file/dir created: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113612-3ql0e7v2/files/output.log
+2023-03-06 11:36:20,457 INFO    Thread-8  :19663 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113612-3ql0e7v2/files/output.log
+2023-03-06 11:36:22,462 INFO    Thread-8  :19663 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113612-3ql0e7v2/files/output.log
+2023-03-06 11:36:26,473 INFO    Thread-8  :19663 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113612-3ql0e7v2/files/output.log
+2023-03-06 11:36:28,475 INFO    Thread-8  :19663 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113612-3ql0e7v2/files/output.log
+2023-03-06 11:36:30,477 INFO    Thread-8  :19663 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113612-3ql0e7v2/files/output.log
+2023-03-06 11:36:30,755 DEBUG   HandlerThread:19663 [handler.py:handle_request():140] handle_request: stop_status
+2023-03-06 11:36:30,755 DEBUG   SenderThread:19663 [sender.py:send_request():250] send_request: stop_status
+2023-03-06 11:36:32,478 INFO    Thread-8  :19663 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113612-3ql0e7v2/files/output.log
+2023-03-06 11:36:34,481 INFO    Thread-8  :19663 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113612-3ql0e7v2/files/output.log
+2023-03-06 11:36:36,483 INFO    Thread-8  :19663 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113612-3ql0e7v2/files/output.log
+2023-03-06 11:36:38,485 INFO    Thread-8  :19663 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113612-3ql0e7v2/files/output.log
+2023-03-06 11:36:40,487 INFO    Thread-8  :19663 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113612-3ql0e7v2/files/output.log
+2023-03-06 11:36:40,788 DEBUG   SenderThread:19663 [sender.py:send():236] send: stats
+2023-03-06 11:36:42,490 INFO    Thread-8  :19663 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113612-3ql0e7v2/files/output.log
+2023-03-06 11:36:43,491 INFO    Thread-8  :19663 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113612-3ql0e7v2/files/config.yaml
+2023-03-06 11:36:44,493 INFO    Thread-8  :19663 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113612-3ql0e7v2/files/output.log
+2023-03-06 11:36:45,899 DEBUG   HandlerThread:19663 [handler.py:handle_request():140] handle_request: stop_status
+2023-03-06 11:36:45,901 DEBUG   SenderThread:19663 [sender.py:send_request():250] send_request: stop_status
+2023-03-06 11:36:46,495 INFO    Thread-8  :19663 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113612-3ql0e7v2/files/output.log
+2023-03-06 11:36:48,497 INFO    Thread-8  :19663 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113612-3ql0e7v2/files/output.log
+2023-03-06 11:36:50,499 INFO    Thread-8  :19663 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113612-3ql0e7v2/files/output.log
+2023-03-06 11:36:52,501 INFO    Thread-8  :19663 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113612-3ql0e7v2/files/output.log
+2023-03-06 11:36:54,503 INFO    Thread-8  :19663 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113612-3ql0e7v2/files/output.log
+2023-03-06 11:36:56,505 INFO    Thread-8  :19663 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113612-3ql0e7v2/files/output.log
+2023-03-06 11:36:58,507 INFO    Thread-8  :19663 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113612-3ql0e7v2/files/output.log
+2023-03-06 11:37:00,509 INFO    Thread-8  :19663 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113612-3ql0e7v2/files/output.log
+2023-03-06 11:37:01,063 DEBUG   HandlerThread:19663 [handler.py:handle_request():140] handle_request: stop_status
+2023-03-06 11:37:01,063 DEBUG   SenderThread:19663 [sender.py:send_request():250] send_request: stop_status
+2023-03-06 11:37:02,511 INFO    Thread-8  :19663 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113612-3ql0e7v2/files/output.log
+2023-03-06 11:37:04,514 INFO    Thread-8  :19663 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113612-3ql0e7v2/files/output.log
+2023-03-06 11:37:06,521 INFO    Thread-8  :19663 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113612-3ql0e7v2/files/output.log
+2023-03-06 11:37:08,530 INFO    Thread-8  :19663 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113612-3ql0e7v2/files/output.log
+2023-03-06 11:37:10,532 INFO    Thread-8  :19663 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113612-3ql0e7v2/files/output.log
+2023-03-06 11:37:11,007 DEBUG   SenderThread:19663 [sender.py:send():236] send: stats
+2023-03-06 11:37:12,535 INFO    Thread-8  :19663 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113612-3ql0e7v2/files/output.log
+2023-03-06 11:37:14,538 INFO    Thread-8  :19663 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113612-3ql0e7v2/files/output.log
+2023-03-06 11:37:16,208 DEBUG   HandlerThread:19663 [handler.py:handle_request():140] handle_request: stop_status
+2023-03-06 11:37:16,208 DEBUG   SenderThread:19663 [sender.py:send_request():250] send_request: stop_status
+2023-03-06 11:37:16,539 INFO    Thread-8  :19663 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113612-3ql0e7v2/files/output.log
+2023-03-06 11:37:18,541 INFO    Thread-8  :19663 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113612-3ql0e7v2/files/output.log
+2023-03-06 11:37:20,543 INFO    Thread-8  :19663 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113612-3ql0e7v2/files/output.log
+2023-03-06 11:37:22,545 INFO    Thread-8  :19663 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113612-3ql0e7v2/files/output.log
+2023-03-06 11:37:24,547 INFO    Thread-8  :19663 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113612-3ql0e7v2/files/output.log
+2023-03-06 11:37:26,559 INFO    Thread-8  :19663 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113612-3ql0e7v2/files/output.log
+2023-03-06 11:37:28,563 INFO    Thread-8  :19663 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113612-3ql0e7v2/files/output.log
+2023-03-06 11:37:30,565 INFO    Thread-8  :19663 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113612-3ql0e7v2/files/output.log
+2023-03-06 11:37:31,353 DEBUG   HandlerThread:19663 [handler.py:handle_request():140] handle_request: stop_status
+2023-03-06 11:37:31,353 DEBUG   SenderThread:19663 [sender.py:send_request():250] send_request: stop_status
+2023-03-06 11:37:32,567 INFO    Thread-8  :19663 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113612-3ql0e7v2/files/output.log
+2023-03-06 11:37:34,569 INFO    Thread-8  :19663 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113612-3ql0e7v2/files/output.log
+2023-03-06 11:37:36,571 INFO    Thread-8  :19663 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113612-3ql0e7v2/files/output.log
+2023-03-06 11:37:38,573 INFO    Thread-8  :19663 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113612-3ql0e7v2/files/output.log
+2023-03-06 11:37:40,575 INFO    Thread-8  :19663 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113612-3ql0e7v2/files/output.log
+2023-03-06 11:37:41,232 DEBUG   SenderThread:19663 [sender.py:send():236] send: stats
+2023-03-06 11:37:42,578 INFO    Thread-8  :19663 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113612-3ql0e7v2/files/output.log
+2023-03-06 11:37:44,579 INFO    Thread-8  :19663 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113612-3ql0e7v2/files/output.log
+2023-03-06 11:37:46,522 DEBUG   HandlerThread:19663 [handler.py:handle_request():140] handle_request: stop_status
+2023-03-06 11:37:46,522 DEBUG   SenderThread:19663 [sender.py:send_request():250] send_request: stop_status
+2023-03-06 11:37:46,582 INFO    Thread-8  :19663 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113612-3ql0e7v2/files/output.log
+2023-03-06 11:37:48,585 INFO    Thread-8  :19663 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113612-3ql0e7v2/files/output.log
+2023-03-06 11:37:50,587 INFO    Thread-8  :19663 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113612-3ql0e7v2/files/output.log
+2023-03-06 11:37:52,589 INFO    Thread-8  :19663 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113612-3ql0e7v2/files/output.log
+2023-03-06 11:37:54,591 INFO    Thread-8  :19663 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113612-3ql0e7v2/files/output.log
+2023-03-06 11:37:56,593 INFO    Thread-8  :19663 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113612-3ql0e7v2/files/output.log
+2023-03-06 11:37:58,595 INFO    Thread-8  :19663 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113612-3ql0e7v2/files/output.log
+2023-03-06 11:38:00,596 INFO    Thread-8  :19663 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113612-3ql0e7v2/files/output.log
+2023-03-06 11:38:01,667 DEBUG   HandlerThread:19663 [handler.py:handle_request():140] handle_request: stop_status
+2023-03-06 11:38:01,667 DEBUG   SenderThread:19663 [sender.py:send_request():250] send_request: stop_status
+2023-03-06 11:38:02,598 INFO    Thread-8  :19663 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113612-3ql0e7v2/files/output.log
+2023-03-06 11:38:04,601 INFO    Thread-8  :19663 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113612-3ql0e7v2/files/output.log
+2023-03-06 11:38:06,603 INFO    Thread-8  :19663 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113612-3ql0e7v2/files/output.log
+2023-03-06 11:38:08,621 INFO    Thread-8  :19663 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113612-3ql0e7v2/files/output.log
+2023-03-06 11:38:10,623 INFO    Thread-8  :19663 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113612-3ql0e7v2/files/output.log
+2023-03-06 11:38:11,451 DEBUG   SenderThread:19663 [sender.py:send():236] send: stats
+2023-03-06 11:38:12,627 INFO    Thread-8  :19663 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113612-3ql0e7v2/files/output.log
+2023-03-06 11:38:14,633 INFO    Thread-8  :19663 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113612-3ql0e7v2/files/output.log
+2023-03-06 11:38:16,635 INFO    Thread-8  :19663 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113612-3ql0e7v2/files/output.log
+2023-03-06 11:38:16,885 DEBUG   HandlerThread:19663 [handler.py:handle_request():140] handle_request: stop_status
+2023-03-06 11:38:16,886 DEBUG   SenderThread:19663 [sender.py:send_request():250] send_request: stop_status
+2023-03-06 11:38:18,637 INFO    Thread-8  :19663 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113612-3ql0e7v2/files/output.log
+2023-03-06 11:38:20,639 INFO    Thread-8  :19663 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113612-3ql0e7v2/files/output.log
+2023-03-06 11:38:22,640 INFO    Thread-8  :19663 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113612-3ql0e7v2/files/output.log
+2023-03-06 11:38:24,642 INFO    Thread-8  :19663 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113612-3ql0e7v2/files/output.log
+2023-03-06 11:38:26,644 INFO    Thread-8  :19663 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113612-3ql0e7v2/files/output.log
+2023-03-06 11:38:28,646 INFO    Thread-8  :19663 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113612-3ql0e7v2/files/output.log
+2023-03-06 11:38:30,648 INFO    Thread-8  :19663 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113612-3ql0e7v2/files/output.log
+2023-03-06 11:38:32,052 DEBUG   HandlerThread:19663 [handler.py:handle_request():140] handle_request: stop_status
+2023-03-06 11:38:32,053 DEBUG   SenderThread:19663 [sender.py:send_request():250] send_request: stop_status
+2023-03-06 11:38:32,650 INFO    Thread-8  :19663 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113612-3ql0e7v2/files/output.log
+2023-03-06 11:38:34,653 INFO    Thread-8  :19663 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113612-3ql0e7v2/files/output.log
+2023-03-06 11:38:36,654 INFO    Thread-8  :19663 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113612-3ql0e7v2/files/output.log
+2023-03-06 11:38:38,656 INFO    Thread-8  :19663 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113612-3ql0e7v2/files/output.log
+2023-03-06 11:38:40,658 INFO    Thread-8  :19663 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113612-3ql0e7v2/files/output.log
+2023-03-06 11:38:41,670 DEBUG   SenderThread:19663 [sender.py:send():236] send: stats
+2023-03-06 11:38:42,660 INFO    Thread-8  :19663 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113612-3ql0e7v2/files/output.log
+2023-03-06 11:38:44,662 INFO    Thread-8  :19663 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113612-3ql0e7v2/files/output.log
+2023-03-06 11:38:46,664 INFO    Thread-8  :19663 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113612-3ql0e7v2/files/output.log
+2023-03-06 11:38:47,212 DEBUG   HandlerThread:19663 [handler.py:handle_request():140] handle_request: stop_status
+2023-03-06 11:38:47,213 DEBUG   SenderThread:19663 [sender.py:send_request():250] send_request: stop_status
+2023-03-06 11:38:48,666 INFO    Thread-8  :19663 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113612-3ql0e7v2/files/output.log
+2023-03-06 11:38:50,668 INFO    Thread-8  :19663 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113612-3ql0e7v2/files/output.log
+2023-03-06 11:38:52,671 INFO    Thread-8  :19663 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113612-3ql0e7v2/files/output.log
+2023-03-06 11:38:54,688 INFO    Thread-8  :19663 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113612-3ql0e7v2/files/output.log
+2023-03-06 11:38:56,690 INFO    Thread-8  :19663 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113612-3ql0e7v2/files/output.log
+2023-03-06 11:38:58,693 INFO    Thread-8  :19663 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113612-3ql0e7v2/files/output.log
+2023-03-06 11:39:00,695 INFO    Thread-8  :19663 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113612-3ql0e7v2/files/output.log
+2023-03-06 11:39:02,361 DEBUG   HandlerThread:19663 [handler.py:handle_request():140] handle_request: stop_status
+2023-03-06 11:39:02,361 DEBUG   SenderThread:19663 [sender.py:send_request():250] send_request: stop_status
+2023-03-06 11:39:02,482 WARNING MainThread:19663 [internal.py:wandb_internal():153] Internal process interrupt: 1
+2023-03-06 11:39:02,745 INFO    Thread-8  :19663 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113612-3ql0e7v2/files/output.log
+2023-03-06 11:39:03,371 DEBUG   SenderThread:19663 [sender.py:send():236] send: telemetry
+2023-03-06 11:39:04,750 INFO    Thread-8  :19663 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113612-3ql0e7v2/files/output.log
+2023-03-06 11:39:05,879 DEBUG   HandlerThread:19663 [handler.py:handle_request():140] handle_request: poll_exit
+2023-03-06 11:39:05,879 DEBUG   SenderThread:19663 [sender.py:send():236] send: exit
+2023-03-06 11:39:05,879 INFO    SenderThread:19663 [sender.py:send_exit():372] handling exit code: 255
+2023-03-06 11:39:05,880 INFO    SenderThread:19663 [sender.py:send_exit():374] handling runtime: 173
+2023-03-06 11:39:05,881 INFO    SenderThread:19663 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 11:39:05,882 INFO    SenderThread:19663 [sender.py:send_exit():380] send defer
+2023-03-06 11:39:05,882 DEBUG   SenderThread:19663 [sender.py:send_request():250] send_request: poll_exit
+2023-03-06 11:39:05,883 DEBUG   HandlerThread:19663 [handler.py:handle_request():140] handle_request: defer
+2023-03-06 11:39:05,883 INFO    HandlerThread:19663 [handler.py:handle_request_defer():163] handle defer: 0
+2023-03-06 11:39:05,884 DEBUG   SenderThread:19663 [sender.py:send_request():250] send_request: defer
+2023-03-06 11:39:05,884 INFO    SenderThread:19663 [sender.py:send_request_defer():389] handle sender defer: 0
+2023-03-06 11:39:05,884 INFO    SenderThread:19663 [sender.py:transition_state():393] send defer: 1
+2023-03-06 11:39:05,884 DEBUG   HandlerThread:19663 [handler.py:handle_request():140] handle_request: defer
+2023-03-06 11:39:05,885 INFO    HandlerThread:19663 [handler.py:handle_request_defer():163] handle defer: 1
+2023-03-06 11:39:05,973 DEBUG   SenderThread:19663 [sender.py:send_request():250] send_request: defer
+2023-03-06 11:39:05,974 INFO    SenderThread:19663 [sender.py:send_request_defer():389] handle sender defer: 1
+2023-03-06 11:39:05,974 INFO    SenderThread:19663 [sender.py:transition_state():393] send defer: 2
+2023-03-06 11:39:05,974 DEBUG   HandlerThread:19663 [handler.py:handle_request():140] handle_request: defer
+2023-03-06 11:39:05,974 DEBUG   SenderThread:19663 [sender.py:send():236] send: stats
+2023-03-06 11:39:05,974 INFO    HandlerThread:19663 [handler.py:handle_request_defer():163] handle defer: 2
+2023-03-06 11:39:05,975 DEBUG   SenderThread:19663 [sender.py:send_request():250] send_request: defer
+2023-03-06 11:39:05,975 INFO    SenderThread:19663 [sender.py:send_request_defer():389] handle sender defer: 2
+2023-03-06 11:39:05,975 INFO    SenderThread:19663 [sender.py:transition_state():393] send defer: 3
+2023-03-06 11:39:05,975 DEBUG   HandlerThread:19663 [handler.py:handle_request():140] handle_request: defer
+2023-03-06 11:39:05,975 INFO    HandlerThread:19663 [handler.py:handle_request_defer():163] handle defer: 3
+2023-03-06 11:39:05,975 DEBUG   SenderThread:19663 [sender.py:send_request():250] send_request: defer
+2023-03-06 11:39:05,975 INFO    SenderThread:19663 [sender.py:send_request_defer():389] handle sender defer: 3
+2023-03-06 11:39:05,976 INFO    SenderThread:19663 [sender.py:transition_state():393] send defer: 4
+2023-03-06 11:39:05,976 DEBUG   HandlerThread:19663 [handler.py:handle_request():140] handle_request: defer
+2023-03-06 11:39:05,976 INFO    HandlerThread:19663 [handler.py:handle_request_defer():163] handle defer: 4
+2023-03-06 11:39:05,976 DEBUG   SenderThread:19663 [sender.py:send():236] send: summary
+2023-03-06 11:39:05,977 INFO    SenderThread:19663 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 11:39:05,977 DEBUG   SenderThread:19663 [sender.py:send_request():250] send_request: defer
+2023-03-06 11:39:05,977 INFO    SenderThread:19663 [sender.py:send_request_defer():389] handle sender defer: 4
+2023-03-06 11:39:05,978 INFO    SenderThread:19663 [sender.py:transition_state():393] send defer: 5
+2023-03-06 11:39:05,978 DEBUG   HandlerThread:19663 [handler.py:handle_request():140] handle_request: defer
+2023-03-06 11:39:05,978 INFO    HandlerThread:19663 [handler.py:handle_request_defer():163] handle defer: 5
+2023-03-06 11:39:05,978 DEBUG   SenderThread:19663 [sender.py:send_request():250] send_request: defer
+2023-03-06 11:39:05,978 INFO    SenderThread:19663 [sender.py:send_request_defer():389] handle sender defer: 5
+2023-03-06 11:39:05,984 DEBUG   HandlerThread:19663 [handler.py:handle_request():140] handle_request: poll_exit
+2023-03-06 11:39:06,168 INFO    SenderThread:19663 [sender.py:transition_state():393] send defer: 6
+2023-03-06 11:39:06,168 DEBUG   SenderThread:19663 [sender.py:send_request():250] send_request: poll_exit
+2023-03-06 11:39:06,169 DEBUG   HandlerThread:19663 [handler.py:handle_request():140] handle_request: defer
+2023-03-06 11:39:06,169 INFO    HandlerThread:19663 [handler.py:handle_request_defer():163] handle defer: 6
+2023-03-06 11:39:06,169 DEBUG   SenderThread:19663 [sender.py:send_request():250] send_request: defer
+2023-03-06 11:39:06,169 INFO    SenderThread:19663 [sender.py:send_request_defer():389] handle sender defer: 6
+2023-03-06 11:39:06,170 INFO    SenderThread:19663 [dir_watcher.py:finish():353] shutting down directory watcher
+2023-03-06 11:39:06,270 DEBUG   HandlerThread:19663 [handler.py:handle_request():140] handle_request: poll_exit
+2023-03-06 11:39:06,751 INFO    SenderThread:19663 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113612-3ql0e7v2/files/config.yaml
+2023-03-06 11:39:06,752 INFO    SenderThread:19663 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113612-3ql0e7v2/files/output.log
+2023-03-06 11:39:06,752 INFO    SenderThread:19663 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113612-3ql0e7v2/files/wandb-summary.json
+2023-03-06 11:39:06,752 INFO    SenderThread:19663 [dir_watcher.py:finish():383] scan: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113612-3ql0e7v2/files
+2023-03-06 11:39:06,753 INFO    SenderThread:19663 [dir_watcher.py:finish():397] scan save: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113612-3ql0e7v2/files/config.yaml config.yaml
+2023-03-06 11:39:06,753 INFO    SenderThread:19663 [dir_watcher.py:finish():397] scan save: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113612-3ql0e7v2/files/wandb-summary.json wandb-summary.json
+2023-03-06 11:39:06,753 INFO    SenderThread:19663 [dir_watcher.py:finish():397] scan save: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113612-3ql0e7v2/files/requirements.txt requirements.txt
+2023-03-06 11:39:06,756 INFO    SenderThread:19663 [dir_watcher.py:finish():397] scan save: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113612-3ql0e7v2/files/conda-environment.yaml conda-environment.yaml
+2023-03-06 11:39:06,759 INFO    SenderThread:19663 [dir_watcher.py:finish():397] scan save: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113612-3ql0e7v2/files/wandb-metadata.json wandb-metadata.json
+2023-03-06 11:39:06,764 INFO    SenderThread:19663 [dir_watcher.py:finish():397] scan save: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113612-3ql0e7v2/files/output.log output.log
+2023-03-06 11:39:06,767 INFO    SenderThread:19663 [sender.py:transition_state():393] send defer: 7
+2023-03-06 11:39:06,767 DEBUG   SenderThread:19663 [sender.py:send_request():250] send_request: poll_exit
+2023-03-06 11:39:06,771 DEBUG   HandlerThread:19663 [handler.py:handle_request():140] handle_request: defer
+2023-03-06 11:39:06,772 INFO    HandlerThread:19663 [handler.py:handle_request_defer():163] handle defer: 7
+2023-03-06 11:39:06,772 DEBUG   SenderThread:19663 [sender.py:send_request():250] send_request: defer
+2023-03-06 11:39:06,772 INFO    SenderThread:19663 [sender.py:send_request_defer():389] handle sender defer: 7
+2023-03-06 11:39:06,772 INFO    SenderThread:19663 [file_pusher.py:finish():171] shutting down file pusher
+2023-03-06 11:39:06,873 DEBUG   HandlerThread:19663 [handler.py:handle_request():140] handle_request: poll_exit
+2023-03-06 11:39:06,873 DEBUG   SenderThread:19663 [sender.py:send_request():250] send_request: poll_exit
+2023-03-06 11:39:06,975 DEBUG   HandlerThread:19663 [handler.py:handle_request():140] handle_request: poll_exit
+2023-03-06 11:39:06,975 DEBUG   SenderThread:19663 [sender.py:send_request():250] send_request: poll_exit
+2023-03-06 11:39:07,077 DEBUG   HandlerThread:19663 [handler.py:handle_request():140] handle_request: poll_exit
+2023-03-06 11:39:07,077 DEBUG   SenderThread:19663 [sender.py:send_request():250] send_request: poll_exit
+2023-03-06 11:39:07,179 DEBUG   HandlerThread:19663 [handler.py:handle_request():140] handle_request: poll_exit
+2023-03-06 11:39:07,179 DEBUG   SenderThread:19663 [sender.py:send_request():250] send_request: poll_exit
+2023-03-06 11:39:07,246 INFO    Thread-14 :19663 [upload_job.py:push():138] Uploaded file /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113612-3ql0e7v2/files/wandb-summary.json
+2023-03-06 11:39:07,255 INFO    Thread-15 :19663 [upload_job.py:push():138] Uploaded file /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113612-3ql0e7v2/files/requirements.txt
+2023-03-06 11:39:07,281 DEBUG   HandlerThread:19663 [handler.py:handle_request():140] handle_request: poll_exit
+2023-03-06 11:39:07,281 DEBUG   SenderThread:19663 [sender.py:send_request():250] send_request: poll_exit
+2023-03-06 11:39:07,290 INFO    Thread-13 :19663 [upload_job.py:push():138] Uploaded file /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113612-3ql0e7v2/files/config.yaml
+2023-03-06 11:39:07,321 INFO    Thread-17 :19663 [upload_job.py:push():138] Uploaded file /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113612-3ql0e7v2/files/output.log
+2023-03-06 11:39:07,328 INFO    Thread-16 :19663 [upload_job.py:push():138] Uploaded file /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113612-3ql0e7v2/files/conda-environment.yaml
+2023-03-06 11:39:07,383 DEBUG   HandlerThread:19663 [handler.py:handle_request():140] handle_request: poll_exit
+2023-03-06 11:39:07,383 DEBUG   SenderThread:19663 [sender.py:send_request():250] send_request: poll_exit
+2023-03-06 11:39:07,485 DEBUG   HandlerThread:19663 [handler.py:handle_request():140] handle_request: poll_exit
+2023-03-06 11:39:07,485 DEBUG   SenderThread:19663 [sender.py:send_request():250] send_request: poll_exit
+2023-03-06 11:39:07,529 INFO    Thread-7  :19663 [sender.py:transition_state():393] send defer: 8
+2023-03-06 11:39:07,530 DEBUG   HandlerThread:19663 [handler.py:handle_request():140] handle_request: defer
+2023-03-06 11:39:07,530 INFO    HandlerThread:19663 [handler.py:handle_request_defer():163] handle defer: 8
+2023-03-06 11:39:07,530 DEBUG   SenderThread:19663 [sender.py:send_request():250] send_request: defer
+2023-03-06 11:39:07,530 INFO    SenderThread:19663 [sender.py:send_request_defer():389] handle sender defer: 8
+2023-03-06 11:39:07,586 DEBUG   HandlerThread:19663 [handler.py:handle_request():140] handle_request: poll_exit
+2023-03-06 11:39:07,952 INFO    SenderThread:19663 [sender.py:transition_state():393] send defer: 9
+2023-03-06 11:39:07,953 DEBUG   SenderThread:19663 [sender.py:send_request():250] send_request: poll_exit
+2023-03-06 11:39:07,954 DEBUG   HandlerThread:19663 [handler.py:handle_request():140] handle_request: defer
+2023-03-06 11:39:07,954 INFO    HandlerThread:19663 [handler.py:handle_request_defer():163] handle defer: 9
+2023-03-06 11:39:07,954 DEBUG   SenderThread:19663 [sender.py:send_request():250] send_request: defer
+2023-03-06 11:39:07,955 INFO    SenderThread:19663 [sender.py:send_request_defer():389] handle sender defer: 9
+2023-03-06 11:39:07,955 INFO    SenderThread:19663 [sender.py:transition_state():393] send defer: 10
+2023-03-06 11:39:07,956 DEBUG   SenderThread:19663 [sender.py:send():236] send: final
+2023-03-06 11:39:07,956 DEBUG   HandlerThread:19663 [handler.py:handle_request():140] handle_request: defer
+2023-03-06 11:39:07,957 DEBUG   SenderThread:19663 [sender.py:send():236] send: footer
+2023-03-06 11:39:07,957 INFO    HandlerThread:19663 [handler.py:handle_request_defer():163] handle defer: 10
+2023-03-06 11:39:07,957 DEBUG   SenderThread:19663 [sender.py:send_request():250] send_request: defer
+2023-03-06 11:39:07,957 INFO    SenderThread:19663 [sender.py:send_request_defer():389] handle sender defer: 10
+2023-03-06 11:39:08,055 DEBUG   HandlerThread:19663 [handler.py:handle_request():140] handle_request: poll_exit
+2023-03-06 11:39:08,056 DEBUG   SenderThread:19663 [sender.py:send_request():250] send_request: poll_exit
+2023-03-06 11:39:08,056 INFO    SenderThread:19663 [file_pusher.py:join():176] waiting for file pusher
+2023-03-06 11:39:08,459 DEBUG   HandlerThread:19663 [handler.py:handle_request():140] handle_request: sampled_history
+2023-03-06 11:39:08,459 DEBUG   HandlerThread:19663 [handler.py:handle_request():140] handle_request: get_summary
+2023-03-06 11:39:08,460 DEBUG   HandlerThread:19663 [handler.py:handle_request():140] handle_request: shutdown
+2023-03-06 11:39:08,460 INFO    HandlerThread:19663 [handler.py:finish():806] shutting down handler
+2023-03-06 11:39:08,957 INFO    WriterThread:19663 [datastore.py:close():279] close: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113612-3ql0e7v2/run-3ql0e7v2.wandb
+2023-03-06 11:39:09,357 INFO    SenderThread:19663 [sender.py:finish():1114] shutting down sender
+2023-03-06 11:39:09,358 INFO    SenderThread:19663 [file_pusher.py:finish():171] shutting down file pusher
+2023-03-06 11:39:09,358 INFO    SenderThread:19663 [file_pusher.py:join():176] waiting for file pusher

@@ -1,0 +1,36 @@
+{
+    "os": "Linux-3.10.0-1160.81.1.el7.x86_64-x86_64-with-centos-7.9.2009-Core",
+    "python": "3.6.13",
+    "heartbeatAt": "2023-03-06T15:34:32.735154",
+    "startedAt": "2023-03-06T15:34:32.352046",
+    "docker": null,
+    "gpu": "Quadro P6000",
+    "gpu_count": 1,
+    "cpu_count": 36,
+    "cuda": null,
+    "args": [
+        "--local_rank=0",
+        "-a",
+        "resnet50",
+        "--world-size",
+        "1",
+        "--batch-size",
+        "8",
+        "--rank",
+        "0",
+        "--fix-pred-lr",
+        "/scratch/leuven/346/vsc34686/datasets/Imagenet_downloads/"
+    ],
+    "state": "running",
+    "program": "main_simsiam_imagenet100_ood_aug_modify_dataset.py",
+    "codePath": "imagenet100/main_simsiam_imagenet100_ood_aug_modify_dataset.py",
+    "git": {
+        "remote": "https://github.com/abskjha/simsiam_out_of_distribution_augmentation_refinement.git",
+        "commit": "353230ffbaafc0c63f08eef5feaf41076d422d70"
+    },
+    "email": null,
+    "root": "/vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement",
+    "host": "tier2-p-login-3",
+    "username": "vsc34686",
+    "executable": "/data/leuven/346/vsc34686/anaconda3/envs/npy36/bin/python"
+}

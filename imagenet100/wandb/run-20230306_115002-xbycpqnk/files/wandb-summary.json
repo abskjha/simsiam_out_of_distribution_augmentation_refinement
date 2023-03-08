@@ -1,0 +1,1 @@
+{"ood_train/loss": -0.998108446598053, "ood_train/epoch": 2.1533118646208247, "ood_train/lr": 0.0009375, "ood_train/weigth_decay": 0.0001, "_timestamp": 1678101068, "_runtime": 1266, "_step": 34103, "ood_train/loss_avg": -0.99756273020903, "_wandb": {"runtime": 1268}}

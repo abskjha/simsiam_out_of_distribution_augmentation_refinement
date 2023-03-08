@@ -1,0 +1,1512 @@
+2023-03-06 17:27:37,227 INFO    MainThread:1719 [wandb_setup.py:_flush():76] Configure stats pid to 1719
+2023-03-06 17:27:37,227 INFO    MainThread:1719 [wandb_setup.py:_flush():76] Loading settings from /user/leuven/346/vsc34686/.config/wandb/settings
+2023-03-06 17:27:37,227 INFO    MainThread:1719 [wandb_setup.py:_flush():76] Loading settings from /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/settings
+2023-03-06 17:27:37,227 INFO    MainThread:1719 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-03-06 17:27:37,227 INFO    MainThread:1719 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'imagenet100/main_simsiam_imagenet100_ood_aug_remove_samples_during_train.py', 'program': 'main_simsiam_imagenet100_ood_aug_remove_samples_during_train.py'}
+2023-03-06 17:27:37,227 INFO    MainThread:1719 [wandb_init.py:_log_setup():461] Logging user logs to /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_172737-1swmg546/logs/debug.log
+2023-03-06 17:27:37,228 INFO    MainThread:1719 [wandb_init.py:_log_setup():462] Logging internal logs to /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_172737-1swmg546/logs/debug-internal.log
+2023-03-06 17:27:37,228 INFO    MainThread:1719 [wandb_init.py:init():495] calling init triggers
+2023-03-06 17:27:37,228 INFO    MainThread:1719 [wandb_init.py:init():499] wandb.init called with sweep_config: {}
+config: {}
+2023-03-06 17:27:37,228 INFO    MainThread:1719 [wandb_init.py:init():548] starting backend
+2023-03-06 17:27:37,228 INFO    MainThread:1719 [backend.py:_multiprocessing_setup():99] multiprocessing start_methods=fork,spawn,forkserver, using: fork
+2023-03-06 17:27:37,233 INFO    MainThread:1719 [backend.py:ensure_launched():217] starting backend process...
+2023-03-06 17:27:37,241 INFO    MainThread:1719 [backend.py:ensure_launched():222] started backend process with pid: 2033
+2023-03-06 17:27:37,242 INFO    MainThread:1719 [wandb_init.py:init():558] backend started and connected
+2023-03-06 17:27:37,243 INFO    MainThread:2033 [internal.py:wandb_internal():93] W&B internal server running at pid: 2033, started at: 2023-03-06 17:27:37.242306
+2023-03-06 17:27:37,246 INFO    MainThread:1719 [wandb_init.py:init():634] updated telemetry
+2023-03-06 17:27:37,248 INFO    WriterThread:2033 [datastore.py:open_for_write():75] open: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_172737-1swmg546/run-1swmg546.wandb
+2023-03-06 17:27:37,284 INFO    MainThread:1719 [wandb_init.py:init():666] communicating run to backend with 30 second timeout
+2023-03-06 17:27:37,513 INFO    MainThread:1719 [wandb_run.py:_on_init():1919] communicating current version
+2023-03-06 17:27:37,526 INFO    SenderThread:2033 [dir_watcher.py:__init__():216] watching files in: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_172737-1swmg546/files
+2023-03-06 17:27:37,527 INFO    SenderThread:2033 [sender.py:_start_run_threads():818] run started: 1swmg546 with start time 1678120057
+2023-03-06 17:27:37,528 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:37,584 INFO    MainThread:1719 [wandb_run.py:_on_init():1923] got version response upgrade_message: "wandb version 0.13.10 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2023-03-06 17:27:37,584 INFO    MainThread:1719 [wandb_init.py:init():700] starting run threads in backend
+2023-03-06 17:27:38,529 INFO    Thread-8  :2033 [dir_watcher.py:_on_file_created():269] file/dir created: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_172737-1swmg546/files/wandb-summary.json
+2023-03-06 17:27:38,530 INFO    Thread-8  :2033 [dir_watcher.py:_on_file_created():269] file/dir created: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_172737-1swmg546/files/conda-environment.yaml
+2023-03-06 17:27:38,530 INFO    Thread-8  :2033 [dir_watcher.py:_on_file_created():269] file/dir created: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_172737-1swmg546/files/requirements.txt
+2023-03-06 17:27:40,908 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-metadata.json with policy now
+2023-03-06 17:27:40,918 INFO    MainThread:1719 [wandb_run.py:_console_start():1893] atexit reg
+2023-03-06 17:27:40,919 INFO    MainThread:1719 [wandb_run.py:_redirect():1766] redirect: SettingsConsole.REDIRECT
+2023-03-06 17:27:40,920 INFO    MainThread:1719 [wandb_run.py:_redirect():1771] Redirecting console.
+2023-03-06 17:27:40,922 INFO    MainThread:1719 [wandb_run.py:_redirect():1827] Redirects installed.
+2023-03-06 17:27:40,922 INFO    MainThread:1719 [wandb_init.py:init():732] run started, returning control to user process
+2023-03-06 17:27:40,926 INFO    MainThread:1719 [wandb_run.py:_config_callback():1131] config_cb None None {'data': '/scratch/leuven/346/vsc34686/datasets/Imagenet_downloads/', 'dataset': 'imagenet100', 'arch': 'resnet50', 'r_c_arch': 'resnet18', 'workers': 30, 'epochs': 1000, 'start_epoch': 0, 'batch_size': 8, 'lr': 0.03, 'momentum': 0.9, 'weight_decay': 0.0001, 'print_freq': 10, 'resume': '', 'world_size': 1, 'rank': 0, 'dist_url': 'env://', 'dist_backend': 'nccl', 'local_rank': 0, 'seed': 0, 'gpu': None, 'multiprocessing_distributed': False, 'dim': 2048, 'pred_dim': 512, 'fix_pred_lr': True, 'output_dir': '/scratch/leuven/346/vsc34686/simsiam_spatial_augmentations/save/main_simsiam_imagenet100_ood_aug_remove_samples_during_train', 'saveckp_freq': 10}
+2023-03-06 17:27:41,413 INFO    Thread-12 :2033 [upload_job.py:push():138] Uploaded file /tmp/tmpj7qavwwzwandb/1vi3g3f8-wandb-metadata.json
+2023-03-06 17:27:41,532 INFO    Thread-8  :2033 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_172737-1swmg546/files/conda-environment.yaml
+2023-03-06 17:27:41,533 INFO    Thread-8  :2033 [dir_watcher.py:_on_file_created():269] file/dir created: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_172737-1swmg546/files/wandb-metadata.json
+2023-03-06 17:27:41,533 INFO    Thread-8  :2033 [dir_watcher.py:_on_file_created():269] file/dir created: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_172737-1swmg546/files/output.log
+2023-03-06 17:27:45,536 INFO    Thread-8  :2033 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_172737-1swmg546/files/output.log
+2023-03-06 17:27:47,894 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:47,929 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:47,932 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:47,954 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:48,015 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:48,036 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:48,038 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:48,059 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:48,084 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:48,109 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:48,136 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:48,162 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:48,188 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:48,213 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:48,271 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:48,290 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:48,293 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:48,317 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:48,342 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:48,368 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:48,394 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:48,420 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:48,445 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:48,472 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:48,507 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:48,546 INFO    Thread-8  :2033 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_172737-1swmg546/files/wandb-summary.json
+2023-03-06 17:27:48,553 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:48,556 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:48,579 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:48,602 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:48,627 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:48,653 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:48,679 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:48,705 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:48,730 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:48,779 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:48,805 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:48,809 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:48,835 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:48,912 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:48,915 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:48,917 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:48,946 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:49,027 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:49,030 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:49,047 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:49,063 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:49,114 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:49,146 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:49,182 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:49,249 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:49,271 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:49,352 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:49,372 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:49,448 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:49,474 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:49,508 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:49,547 INFO    Thread-8  :2033 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_172737-1swmg546/files/output.log
+2023-03-06 17:27:49,547 INFO    Thread-8  :2033 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_172737-1swmg546/files/wandb-summary.json
+2023-03-06 17:27:49,573 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:49,600 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:49,627 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:49,694 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:49,713 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:49,721 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:49,746 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:49,832 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:49,835 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:49,839 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:49,854 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:49,902 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:49,917 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:49,937 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:49,958 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:49,982 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:50,010 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:50,034 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:50,060 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:50,085 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:50,111 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:50,137 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:50,162 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:50,187 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:50,213 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:50,238 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:50,264 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:50,292 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:50,318 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:50,366 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:50,373 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:50,402 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:50,420 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:50,450 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:50,472 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:50,498 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:50,525 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:50,548 INFO    Thread-8  :2033 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_172737-1swmg546/files/wandb-summary.json
+2023-03-06 17:27:50,551 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:50,577 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:50,603 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:50,630 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:50,681 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:50,692 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:50,706 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:50,740 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:50,758 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:50,782 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:50,812 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:50,845 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:50,866 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:50,886 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:50,912 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:50,938 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:50,975 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:51,016 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:51,038 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:51,046 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:51,081 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:51,104 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:51,118 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:51,144 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:51,169 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:51,195 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:51,222 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:51,247 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:51,285 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:51,304 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:51,332 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:51,358 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:51,376 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:51,403 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:51,439 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:51,462 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:51,479 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:51,506 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:51,531 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:51,549 INFO    Thread-8  :2033 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_172737-1swmg546/files/output.log
+2023-03-06 17:27:51,549 INFO    Thread-8  :2033 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_172737-1swmg546/files/wandb-summary.json
+2023-03-06 17:27:51,560 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:51,582 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:51,608 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:51,634 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:51,659 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:51,685 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:51,718 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:51,736 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:51,776 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:51,788 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:51,817 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:51,845 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:51,871 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:51,897 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:52,940 INFO    Thread-8  :2033 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_172737-1swmg546/files/wandb-summary.json
+2023-03-06 17:27:52,940 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:52,945 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:52,947 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:52,949 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:52,954 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:52,959 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:52,961 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:52,963 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:52,967 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:52,970 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:52,977 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:52,984 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:52,989 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:53,006 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:53,009 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:53,011 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:53,012 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:53,014 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:53,017 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:53,019 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:53,021 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:53,023 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:53,025 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:53,027 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:53,028 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:53,030 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:53,032 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:53,034 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:53,036 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:53,043 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:53,050 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:53,061 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:53,068 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:53,073 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:53,075 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:53,076 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:53,078 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:53,080 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:53,082 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:53,084 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:53,087 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:53,090 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:53,092 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:53,094 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:53,096 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:53,098 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:53,133 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:53,143 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:53,172 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:53,196 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:53,219 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:53,260 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:53,270 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:53,298 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:53,346 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:53,362 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:53,388 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:53,414 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:53,444 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:53,466 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:53,492 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:53,518 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:53,544 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:53,569 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:53,595 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:53,620 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:53,646 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:53,672 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:53,698 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:53,726 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:53,752 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:53,779 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:53,805 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:53,831 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:53,857 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:53,882 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:53,908 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:53,934 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:53,941 INFO    Thread-8  :2033 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_172737-1swmg546/files/output.log
+2023-03-06 17:27:53,941 INFO    Thread-8  :2033 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_172737-1swmg546/files/wandb-summary.json
+2023-03-06 17:27:53,961 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:53,987 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:54,013 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:54,039 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:54,066 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:54,096 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:54,122 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:54,151 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:54,175 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:54,201 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:54,226 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:54,253 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:54,278 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:54,304 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:54,330 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:54,356 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:54,382 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:54,408 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:54,433 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:54,460 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:54,485 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:54,511 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:54,537 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:54,562 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:54,589 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:54,615 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:54,641 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:54,667 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:54,695 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:54,720 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:54,745 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:54,771 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:54,800 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:54,826 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:54,853 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:54,879 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:54,906 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:54,943 INFO    Thread-8  :2033 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_172737-1swmg546/files/wandb-summary.json
+2023-03-06 17:27:54,950 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:54,973 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:55,003 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:55,046 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:55,072 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:55,098 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:55,144 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:55,170 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:55,196 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:55,222 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:55,248 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:55,274 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:55,305 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:55,326 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:55,352 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:55,377 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:55,404 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:55,430 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:55,456 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:55,483 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:55,508 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:55,535 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:55,562 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:55,589 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:55,615 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:55,641 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:55,669 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:55,695 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:55,720 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:55,746 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:55,772 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:55,799 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:55,825 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:55,851 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:55,878 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:55,903 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:55,944 INFO    Thread-8  :2033 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_172737-1swmg546/files/output.log
+2023-03-06 17:27:55,944 INFO    Thread-8  :2033 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_172737-1swmg546/files/wandb-summary.json
+2023-03-06 17:27:55,963 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:55,989 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:56,015 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:56,211 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:56,213 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:56,215 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:56,217 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:56,218 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:56,220 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:56,227 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:56,254 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:56,280 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:56,306 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:56,332 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:56,357 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:56,382 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:56,408 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:56,433 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:56,460 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:56,486 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:56,512 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:56,538 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:56,564 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:56,589 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:56,617 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:56,643 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:56,669 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:56,695 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:56,722 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:57,029 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:57,029 INFO    Thread-8  :2033 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_172737-1swmg546/files/output.log
+2023-03-06 17:27:57,029 INFO    Thread-8  :2033 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_172737-1swmg546/files/wandb-summary.json
+2023-03-06 17:27:57,031 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:57,034 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:57,036 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:57,038 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:57,040 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:57,046 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:57,049 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:57,051 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:57,053 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:57,055 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:57,057 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:57,062 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:57,089 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:57,115 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:57,141 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:57,167 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:57,193 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:57,219 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:57,245 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:57,271 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:57,297 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:57,325 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:57,349 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:57,375 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:57,402 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:57,428 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:57,455 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:57,482 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:57,509 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:57,533 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:57,569 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:57,596 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:57,622 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:57,648 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:57,674 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:57,700 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:57,726 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:57,752 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:57,778 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:57,804 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:57,830 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:57,856 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:57,881 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:57,907 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:57,934 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:57,962 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:57,988 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:58,014 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:58,030 INFO    Thread-8  :2033 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_172737-1swmg546/files/wandb-summary.json
+2023-03-06 17:27:58,047 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:58,073 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:58,262 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:58,289 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:58,314 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:58,339 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:58,365 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:58,391 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:58,418 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:58,471 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:58,500 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:58,546 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:58,574 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:58,599 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:58,626 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:58,651 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:58,682 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:58,709 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:58,736 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:58,764 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:58,790 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:58,816 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:58,842 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:58,868 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:58,894 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:58,921 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:58,947 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:58,976 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:59,007 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:59,032 INFO    Thread-8  :2033 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_172737-1swmg546/files/output.log
+2023-03-06 17:27:59,032 INFO    Thread-8  :2033 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_172737-1swmg546/files/wandb-summary.json
+2023-03-06 17:27:59,034 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:59,059 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:59,085 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:59,115 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:59,139 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:59,165 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:59,191 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:59,218 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:59,243 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:59,269 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:59,297 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:59,321 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:59,348 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:59,372 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:59,397 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:59,423 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:59,468 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:59,498 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:59,557 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:59,583 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:59,613 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:59,669 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:59,695 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:59,721 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:59,758 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:59,783 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:59,809 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:59,835 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:59,869 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:59,897 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:59,960 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:27:59,985 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:00,012 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:00,043 INFO    Thread-8  :2033 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_172737-1swmg546/files/wandb-summary.json
+2023-03-06 17:28:00,071 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:00,100 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:00,127 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:00,169 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:00,195 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:00,220 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:00,246 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:00,272 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:00,297 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:00,323 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:00,350 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:00,375 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:00,401 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:00,426 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:00,452 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:00,478 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:00,504 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:00,529 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:00,559 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:00,585 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:00,605 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:00,631 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:00,657 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:00,682 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:00,710 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:00,736 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:00,762 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:00,789 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:00,814 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:00,840 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:00,866 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:00,893 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:00,919 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:00,946 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:00,973 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:00,998 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:01,023 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:01,044 INFO    Thread-8  :2033 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_172737-1swmg546/files/output.log
+2023-03-06 17:28:01,044 INFO    Thread-8  :2033 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_172737-1swmg546/files/wandb-summary.json
+2023-03-06 17:28:01,049 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:01,075 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:01,101 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:01,126 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:01,152 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:01,180 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:01,203 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:01,229 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:01,254 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:01,280 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:01,307 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:01,333 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:01,360 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:01,385 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:01,410 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:01,436 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:01,462 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:01,488 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:01,513 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:01,539 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:01,566 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:01,593 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:01,619 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:01,645 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:01,671 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:01,697 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:01,724 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:01,771 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:01,797 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:01,846 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:01,876 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:01,901 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:01,927 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:01,968 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:01,986 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:02,012 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:02,038 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:02,044 INFO    Thread-8  :2033 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_172737-1swmg546/files/wandb-summary.json
+2023-03-06 17:28:02,064 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:02,089 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:02,115 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:02,141 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:02,166 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:02,193 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:02,219 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:02,245 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:02,273 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:02,299 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:02,325 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:02,351 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:02,376 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:02,403 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:02,429 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:02,454 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:02,480 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:02,506 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:02,531 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:02,557 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:02,583 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:02,609 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:02,635 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:02,660 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:02,686 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:02,712 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:02,737 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:02,763 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:02,789 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:02,814 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:02,840 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:02,866 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:02,892 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:02,917 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:02,942 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:02,969 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:02,994 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:03,022 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:03,046 INFO    Thread-8  :2033 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_172737-1swmg546/files/output.log
+2023-03-06 17:28:03,047 INFO    Thread-8  :2033 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_172737-1swmg546/files/wandb-summary.json
+2023-03-06 17:28:03,049 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:03,074 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:03,101 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:03,133 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:03,161 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:03,187 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:03,216 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:03,242 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:03,268 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:03,293 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:03,319 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:03,344 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:03,373 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:03,397 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:03,422 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:03,449 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:03,478 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:03,504 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:03,530 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:03,555 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:03,581 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:03,606 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:03,631 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:03,657 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:03,682 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:03,708 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:03,735 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:03,760 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:03,785 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:03,811 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:03,836 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:03,862 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:03,887 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:03,913 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:03,939 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:03,965 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:03,990 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:04,016 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:04,041 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:04,046 INFO    Thread-8  :2033 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_172737-1swmg546/files/wandb-summary.json
+2023-03-06 17:28:04,067 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:04,092 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:04,117 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:04,143 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:04,167 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:04,193 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:04,218 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:04,243 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:04,270 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:04,295 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:04,321 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:04,346 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:04,372 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:04,397 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:04,422 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:04,448 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:04,473 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:04,498 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:04,524 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:04,549 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:04,574 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:04,599 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:04,625 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:04,650 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:04,676 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:04,701 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:04,727 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:04,752 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:04,779 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:04,804 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:04,830 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:04,855 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:04,881 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:04,906 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:04,931 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:04,957 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:04,984 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:05,048 INFO    Thread-8  :2033 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_172737-1swmg546/files/output.log
+2023-03-06 17:28:05,048 INFO    Thread-8  :2033 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_172737-1swmg546/files/wandb-summary.json
+2023-03-06 17:28:05,771 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:06,049 INFO    Thread-8  :2033 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_172737-1swmg546/files/wandb-summary.json
+2023-03-06 17:28:08,098 INFO    Thread-8  :2033 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_172737-1swmg546/files/output.log
+2023-03-06 17:28:08,583 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:08,602 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:08,612 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:08,651 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:08,661 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:08,672 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:08,751 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:08,783 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:08,871 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:08,943 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:08,949 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:08,970 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:09,043 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:09,046 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:09,048 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:09,050 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:09,051 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:09,053 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:09,083 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:09,106 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:09,152 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:09,159 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:09,199 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:09,244 INFO    Thread-8  :2033 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_172737-1swmg546/files/config.yaml
+2023-03-06 17:28:09,244 INFO    Thread-8  :2033 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_172737-1swmg546/files/output.log
+2023-03-06 17:28:09,245 INFO    Thread-8  :2033 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_172737-1swmg546/files/wandb-summary.json
+2023-03-06 17:28:09,245 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:09,247 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:09,249 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:09,268 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:09,343 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:09,351 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:09,355 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:09,356 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:09,359 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:09,368 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:09,379 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:09,388 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:09,446 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:09,455 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:09,464 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:09,473 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:09,483 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:09,562 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:09,587 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:09,654 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:09,743 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:09,751 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:09,763 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:09,844 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:09,846 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:09,848 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:09,850 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:09,853 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:09,855 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:09,857 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:09,861 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:09,946 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:09,955 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:09,965 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:10,047 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:10,056 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:10,065 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:10,157 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:10,167 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:11,365 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:11,365 INFO    Thread-8  :2033 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_172737-1swmg546/files/output.log
+2023-03-06 17:28:11,366 INFO    Thread-8  :2033 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_172737-1swmg546/files/wandb-summary.json
+2023-03-06 17:28:11,370 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:11,372 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:11,374 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:11,375 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:11,377 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:11,380 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:11,381 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:11,384 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:11,444 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:11,446 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:11,448 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:11,452 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:11,454 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:11,458 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:11,460 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:11,462 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:11,464 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:11,466 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:11,467 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:11,470 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:11,472 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:11,474 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:11,476 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:11,479 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:11,481 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:11,484 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:11,485 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:11,544 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:11,547 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:11,551 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:11,553 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:11,558 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:11,561 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:11,565 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:11,567 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:11,569 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:11,571 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:11,574 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:11,595 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:11,597 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:11,654 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:11,846 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:11,848 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:11,851 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:11,853 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:11,856 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:11,860 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:11,862 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:11,867 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:11,869 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:11,872 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:11,874 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:11,876 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:11,878 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:11,880 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:11,882 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:11,883 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:11,960 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:11,970 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:11,973 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:11,975 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:11,978 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:11,980 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:12,044 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:12,047 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:12,049 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:12,051 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:12,053 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:12,055 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:12,057 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:12,059 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:12,061 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:12,063 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:12,065 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:12,067 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:12,069 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:12,071 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:12,074 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:12,078 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:12,084 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:12,144 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:12,148 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:12,158 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:12,168 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:12,178 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:12,243 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:12,253 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:12,263 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:12,287 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:12,290 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:12,351 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:12,363 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:12,366 INFO    Thread-8  :2033 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_172737-1swmg546/files/wandb-summary.json
+2023-03-06 17:28:12,373 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:12,382 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:12,443 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:12,452 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:12,462 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:12,471 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:12,495 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:12,551 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:12,553 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:12,574 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:12,575 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:12,583 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:12,647 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:12,657 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:12,667 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:12,677 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:12,746 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:12,755 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:12,765 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:12,774 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:12,784 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:12,853 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:12,863 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:12,872 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:12,883 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:12,949 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:12,959 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:12,969 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:12,979 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:12,989 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:13,045 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:13,061 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:13,067 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:13,077 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:13,087 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:13,146 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:13,155 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:13,165 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:13,175 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:13,185 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:13,249 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:13,257 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:13,266 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:13,276 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:13,346 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:13,355 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:13,367 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:13,368 INFO    Thread-8  :2033 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_172737-1swmg546/files/output.log
+2023-03-06 17:28:13,368 INFO    Thread-8  :2033 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_172737-1swmg546/files/wandb-summary.json
+2023-03-06 17:28:13,378 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:13,445 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:13,455 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:13,465 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:13,475 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:13,545 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:13,554 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:13,565 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:13,579 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:13,649 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:13,658 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:13,667 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:13,677 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:13,686 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:13,695 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:13,752 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:13,761 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:13,770 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:13,780 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:13,789 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:13,853 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:13,863 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:13,872 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:13,883 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:13,943 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:13,952 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:13,961 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:13,971 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:13,981 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:14,045 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:14,054 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:14,064 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:14,075 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:14,084 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:14,143 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:14,152 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:14,162 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:14,171 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:14,195 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:14,243 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:14,253 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:14,263 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:14,272 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:14,282 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:14,346 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:14,356 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:14,366 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:14,369 INFO    Thread-8  :2033 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_172737-1swmg546/files/wandb-summary.json
+2023-03-06 17:28:14,379 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:14,444 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:14,452 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:14,465 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:14,474 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:14,484 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:14,548 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:14,558 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:14,568 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:14,578 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:14,661 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:14,664 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:14,667 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:14,676 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:14,746 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:14,755 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:14,765 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:14,775 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:14,846 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:14,855 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:14,865 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:14,947 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:14,958 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:14,967 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:14,977 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:15,046 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:15,055 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:15,067 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:15,079 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:15,144 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:15,152 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:15,162 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:15,172 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:15,182 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:15,192 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:15,252 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:15,261 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:15,270 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:15,280 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:15,346 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:15,356 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:15,367 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:15,370 INFO    Thread-8  :2033 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_172737-1swmg546/files/output.log
+2023-03-06 17:28:15,370 INFO    Thread-8  :2033 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_172737-1swmg546/files/wandb-summary.json
+2023-03-06 17:28:15,376 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:15,448 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:16,045 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:16,047 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:16,049 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:16,051 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:16,054 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:16,055 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:16,058 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:16,059 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:16,062 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:16,064 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:16,066 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:16,068 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:16,071 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:16,073 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:16,075 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:16,077 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:16,079 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:16,081 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:16,083 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:16,085 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:16,087 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:16,089 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:16,091 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:16,093 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:16,095 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:16,097 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:16,144 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:16,146 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:16,148 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:16,152 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:16,162 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:16,190 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:16,194 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:16,197 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:16,247 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:16,256 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:16,267 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:16,277 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:16,288 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:16,346 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:16,355 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:16,365 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:16,371 INFO    Thread-8  :2033 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_172737-1swmg546/files/wandb-summary.json
+2023-03-06 17:28:16,443 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:16,445 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:16,456 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:16,462 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:16,471 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:16,480 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:16,490 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:16,554 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:16,564 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:16,573 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:16,582 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:16,643 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:16,655 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:16,664 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:16,674 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:16,685 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:16,747 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:16,759 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:16,768 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:16,778 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:16,787 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:16,846 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:16,855 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:16,867 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:16,876 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:16,887 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:16,954 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:16,964 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:16,973 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:17,043 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:17,052 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:17,061 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:17,071 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:17,084 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:17,144 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:17,154 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:17,163 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:17,173 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:17,182 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:17,245 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:17,256 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:17,265 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:17,275 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:17,285 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:17,353 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:17,362 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:17,371 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:17,373 INFO    Thread-8  :2033 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_172737-1swmg546/files/output.log
+2023-03-06 17:28:17,373 INFO    Thread-8  :2033 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_172737-1swmg546/files/wandb-summary.json
+2023-03-06 17:28:17,453 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:17,461 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:17,471 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:17,546 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:17,557 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:17,566 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:17,577 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:17,653 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:17,663 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:17,674 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:17,683 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:17,743 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:17,753 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:17,762 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:17,772 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:17,782 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:17,792 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:17,852 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:17,861 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:17,874 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:17,884 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:17,954 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:17,964 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:17,975 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:17,984 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:18,044 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:18,054 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:18,065 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:18,075 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:18,085 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:18,148 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:18,157 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:18,167 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:18,176 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:18,186 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:18,243 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:18,254 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:18,263 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:18,272 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:18,282 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:18,346 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:18,355 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:18,364 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:18,374 INFO    Thread-8  :2033 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_172737-1swmg546/files/wandb-summary.json
+2023-03-06 17:28:18,374 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:18,451 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:18,455 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:18,464 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:18,474 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:18,554 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:18,563 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:18,647 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:18,654 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:18,665 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:18,675 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:18,751 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:18,760 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:18,770 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:18,847 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:18,857 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:18,868 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:18,879 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:18,952 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:18,962 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:18,971 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:18,980 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:19,046 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:19,056 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:19,066 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:19,079 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:19,154 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:19,163 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:19,173 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:19,182 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:19,247 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:19,257 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:19,267 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:19,277 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:19,287 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:19,355 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:19,366 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:19,376 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:19,376 INFO    Thread-8  :2033 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_172737-1swmg546/files/output.log
+2023-03-06 17:28:19,376 INFO    Thread-8  :2033 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_172737-1swmg546/files/wandb-summary.json
+2023-03-06 17:28:19,385 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:19,450 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:19,461 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:19,468 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:19,479 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:19,488 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:19,552 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:19,561 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:19,571 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:19,581 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:19,647 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:19,658 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:19,667 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:19,677 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:19,687 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:19,748 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:19,758 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:19,768 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:19,778 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:19,788 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:19,853 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:19,874 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:19,879 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:19,944 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:19,953 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:19,963 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:19,973 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:19,982 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:19,991 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:20,057 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:20,066 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:20,075 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:20,084 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:20,149 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:20,158 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:20,176 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:20,178 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:20,188 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:20,246 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:20,255 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:20,264 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:20,274 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:20,283 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:20,352 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:20,362 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:20,371 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:20,377 INFO    Thread-8  :2033 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_172737-1swmg546/files/wandb-summary.json
+2023-03-06 17:28:20,381 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:20,455 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:20,466 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:20,475 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:20,547 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:20,557 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:20,567 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:20,577 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:20,587 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:20,651 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:20,659 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:20,670 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:20,679 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:20,689 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:20,754 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:20,760 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:20,770 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:20,779 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:20,789 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:20,847 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:20,857 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:20,867 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:20,878 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:20,887 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:20,951 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:20,960 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:20,971 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:20,980 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:21,045 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:21,055 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:21,065 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:21,076 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:21,087 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:21,150 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:21,160 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:21,170 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:21,179 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:21,188 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:21,253 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:21,263 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:21,272 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:21,282 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:21,344 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:21,354 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:21,365 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:21,374 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:21,378 INFO    Thread-8  :2033 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_172737-1swmg546/files/output.log
+2023-03-06 17:28:21,378 INFO    Thread-8  :2033 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_172737-1swmg546/files/wandb-summary.json
+2023-03-06 17:28:21,385 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:21,447 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:21,456 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:21,467 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:21,478 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:21,487 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:21,553 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:21,562 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:21,572 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:21,583 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:21,646 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:21,656 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:21,664 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:21,674 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:21,684 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:21,694 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:21,703 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:21,712 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:21,722 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:21,731 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:21,740 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:21,749 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:21,758 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:21,768 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:21,776 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:21,785 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:21,795 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:21,803 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:21,813 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:21,822 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:21,831 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:21,841 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:21,850 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:21,859 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:21,868 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:21,877 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:21,887 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:21,896 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:21,905 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:21,915 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:21,923 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:21,933 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:21,942 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:21,951 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:21,960 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:21,970 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:21,979 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:21,988 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:21,997 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:22,007 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:22,016 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:22,024 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:22,034 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:22,044 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:22,052 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:22,062 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:22,070 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:22,080 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:22,089 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:22,099 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:22,107 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:22,116 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:22,126 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:22,135 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:22,144 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:22,153 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:22,163 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:22,175 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:22,187 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:22,196 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:22,443 INFO    Thread-8  :2033 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_172737-1swmg546/files/wandb-summary.json
+2023-03-06 17:28:22,780 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:23,445 INFO    Thread-8  :2033 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_172737-1swmg546/files/output.log
+2023-03-06 17:28:23,445 INFO    Thread-8  :2033 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_172737-1swmg546/files/wandb-summary.json
+2023-03-06 17:28:25,447 INFO    Thread-8  :2033 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_172737-1swmg546/files/output.log
+2023-03-06 17:28:28,894 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:29,458 INFO    Thread-8  :2033 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_172737-1swmg546/files/output.log
+2023-03-06 17:28:29,458 INFO    Thread-8  :2033 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_172737-1swmg546/files/wandb-summary.json
+2023-03-06 17:28:30,428 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:30,433 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:30,459 INFO    Thread-8  :2033 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_172737-1swmg546/files/wandb-summary.json
+2023-03-06 17:28:30,465 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:31,171 INFO    MainThread:1719 [wandb_run.py:_atexit_cleanup():1862] got exitcode: 1
+2023-03-06 17:28:31,174 INFO    MainThread:1719 [wandb_run.py:_restore():1834] restore
+2023-03-06 17:28:31,460 INFO    Thread-8  :2033 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_172737-1swmg546/files/wandb-summary.json
+2023-03-06 17:28:33,463 INFO    Thread-8  :2033 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_172737-1swmg546/files/output.log
+2023-03-06 17:28:33,960 INFO    SenderThread:2033 [sender.py:send_exit():372] handling exit code: 1
+2023-03-06 17:28:33,962 INFO    SenderThread:2033 [sender.py:send_exit():374] handling runtime: 56
+2023-03-06 17:28:33,964 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:33,964 INFO    SenderThread:2033 [sender.py:send_exit():380] send defer
+2023-03-06 17:28:33,966 INFO    MainThread:1719 [wandb_run.py:_on_finish():1991] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 1281
+  total_bytes: 1281
+}
+
+2023-03-06 17:28:33,966 INFO    HandlerThread:2033 [handler.py:handle_request_defer():163] handle defer: 0
+2023-03-06 17:28:33,966 INFO    SenderThread:2033 [sender.py:send_request_defer():389] handle sender defer: 0
+2023-03-06 17:28:33,966 INFO    SenderThread:2033 [sender.py:transition_state():393] send defer: 1
+2023-03-06 17:28:33,967 INFO    HandlerThread:2033 [handler.py:handle_request_defer():163] handle defer: 1
+2023-03-06 17:28:33,981 INFO    SenderThread:2033 [sender.py:send_request_defer():389] handle sender defer: 1
+2023-03-06 17:28:33,981 INFO    SenderThread:2033 [sender.py:transition_state():393] send defer: 2
+2023-03-06 17:28:33,982 INFO    HandlerThread:2033 [handler.py:handle_request_defer():163] handle defer: 2
+2023-03-06 17:28:33,982 INFO    SenderThread:2033 [sender.py:send_request_defer():389] handle sender defer: 2
+2023-03-06 17:28:33,982 INFO    SenderThread:2033 [sender.py:transition_state():393] send defer: 3
+2023-03-06 17:28:33,982 INFO    HandlerThread:2033 [handler.py:handle_request_defer():163] handle defer: 3
+2023-03-06 17:28:33,983 INFO    SenderThread:2033 [sender.py:send_request_defer():389] handle sender defer: 3
+2023-03-06 17:28:33,983 INFO    SenderThread:2033 [sender.py:transition_state():393] send defer: 4
+2023-03-06 17:28:33,983 INFO    HandlerThread:2033 [handler.py:handle_request_defer():163] handle defer: 4
+2023-03-06 17:28:33,985 INFO    SenderThread:2033 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:28:33,985 INFO    SenderThread:2033 [sender.py:send_request_defer():389] handle sender defer: 4
+2023-03-06 17:28:33,986 INFO    SenderThread:2033 [sender.py:transition_state():393] send defer: 5
+2023-03-06 17:28:33,986 INFO    HandlerThread:2033 [handler.py:handle_request_defer():163] handle defer: 5
+2023-03-06 17:28:33,986 INFO    SenderThread:2033 [sender.py:send_request_defer():389] handle sender defer: 5
+2023-03-06 17:28:34,174 INFO    SenderThread:2033 [sender.py:transition_state():393] send defer: 6
+2023-03-06 17:28:34,175 INFO    HandlerThread:2033 [handler.py:handle_request_defer():163] handle defer: 6
+2023-03-06 17:28:34,175 INFO    SenderThread:2033 [sender.py:send_request_defer():389] handle sender defer: 6
+2023-03-06 17:28:34,175 INFO    SenderThread:2033 [dir_watcher.py:finish():353] shutting down directory watcher
+2023-03-06 17:28:34,175 INFO    MainThread:1719 [wandb_run.py:_on_finish():1991] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 1281
+  total_bytes: 1281
+}
+
+2023-03-06 17:28:34,465 INFO    SenderThread:2033 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_172737-1swmg546/files/config.yaml
+2023-03-06 17:28:34,465 INFO    SenderThread:2033 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_172737-1swmg546/files/output.log
+2023-03-06 17:28:34,465 INFO    SenderThread:2033 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_172737-1swmg546/files/wandb-summary.json
+2023-03-06 17:28:34,465 INFO    SenderThread:2033 [dir_watcher.py:finish():383] scan: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_172737-1swmg546/files
+2023-03-06 17:28:34,466 INFO    SenderThread:2033 [dir_watcher.py:finish():397] scan save: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_172737-1swmg546/files/config.yaml config.yaml
+2023-03-06 17:28:34,466 INFO    SenderThread:2033 [dir_watcher.py:finish():397] scan save: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_172737-1swmg546/files/wandb-summary.json wandb-summary.json
+2023-03-06 17:28:34,466 INFO    SenderThread:2033 [dir_watcher.py:finish():397] scan save: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_172737-1swmg546/files/requirements.txt requirements.txt
+2023-03-06 17:28:34,469 INFO    SenderThread:2033 [dir_watcher.py:finish():397] scan save: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_172737-1swmg546/files/conda-environment.yaml conda-environment.yaml
+2023-03-06 17:28:34,475 INFO    SenderThread:2033 [dir_watcher.py:finish():397] scan save: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_172737-1swmg546/files/wandb-metadata.json wandb-metadata.json
+2023-03-06 17:28:34,476 INFO    SenderThread:2033 [dir_watcher.py:finish():397] scan save: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_172737-1swmg546/files/output.log output.log
+2023-03-06 17:28:34,479 INFO    SenderThread:2033 [sender.py:transition_state():393] send defer: 7
+2023-03-06 17:28:34,480 INFO    MainThread:1719 [wandb_run.py:_on_finish():1991] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 1281
+  total_bytes: 11554
+}
+
+2023-03-06 17:28:34,483 INFO    HandlerThread:2033 [handler.py:handle_request_defer():163] handle defer: 7
+2023-03-06 17:28:34,483 INFO    SenderThread:2033 [sender.py:send_request_defer():389] handle sender defer: 7
+2023-03-06 17:28:34,483 INFO    SenderThread:2033 [file_pusher.py:finish():171] shutting down file pusher
+2023-03-06 17:28:34,582 INFO    MainThread:1719 [wandb_run.py:_on_finish():1991] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 1281
+  total_bytes: 37976
+}
+
+2023-03-06 17:28:34,684 INFO    MainThread:1719 [wandb_run.py:_on_finish():1991] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 11554
+  total_bytes: 37976
+}
+
+2023-03-06 17:28:34,786 INFO    MainThread:1719 [wandb_run.py:_on_finish():1991] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 37976
+  total_bytes: 37976
+}
+
+2023-03-06 17:28:34,888 INFO    MainThread:1719 [wandb_run.py:_on_finish():1991] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 37976
+  total_bytes: 37976
+}
+
+2023-03-06 17:28:34,965 INFO    Thread-16 :2033 [upload_job.py:push():138] Uploaded file /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_172737-1swmg546/files/conda-environment.yaml
+2023-03-06 17:28:34,966 INFO    Thread-14 :2033 [upload_job.py:push():138] Uploaded file /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_172737-1swmg546/files/wandb-summary.json
+2023-03-06 17:28:34,966 INFO    Thread-13 :2033 [upload_job.py:push():138] Uploaded file /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_172737-1swmg546/files/config.yaml
+2023-03-06 17:28:34,969 INFO    Thread-15 :2033 [upload_job.py:push():138] Uploaded file /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_172737-1swmg546/files/requirements.txt
+2023-03-06 17:28:34,988 INFO    Thread-17 :2033 [upload_job.py:push():138] Uploaded file /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_172737-1swmg546/files/output.log
+2023-03-06 17:28:34,990 INFO    MainThread:1719 [wandb_run.py:_on_finish():1991] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 37976
+  total_bytes: 37976
+}
+
+2023-03-06 17:28:35,092 INFO    MainThread:1719 [wandb_run.py:_on_finish():1991] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 37976
+  total_bytes: 37976
+}
+
+2023-03-06 17:28:35,189 INFO    Thread-7  :2033 [sender.py:transition_state():393] send defer: 8
+2023-03-06 17:28:35,190 INFO    HandlerThread:2033 [handler.py:handle_request_defer():163] handle defer: 8
+2023-03-06 17:28:35,190 INFO    SenderThread:2033 [sender.py:send_request_defer():389] handle sender defer: 8
+2023-03-06 17:28:35,407 INFO    SenderThread:2033 [sender.py:transition_state():393] send defer: 9
+2023-03-06 17:28:35,408 INFO    HandlerThread:2033 [handler.py:handle_request_defer():163] handle defer: 9
+2023-03-06 17:28:35,408 INFO    SenderThread:2033 [sender.py:send_request_defer():389] handle sender defer: 9
+2023-03-06 17:28:35,408 INFO    MainThread:1719 [wandb_run.py:_on_finish():1991] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 37976
+  total_bytes: 37976
+}
+
+2023-03-06 17:28:35,408 INFO    SenderThread:2033 [sender.py:transition_state():393] send defer: 10
+2023-03-06 17:28:35,409 INFO    HandlerThread:2033 [handler.py:handle_request_defer():163] handle defer: 10
+2023-03-06 17:28:35,409 INFO    SenderThread:2033 [sender.py:send_request_defer():389] handle sender defer: 10
+2023-03-06 17:28:35,509 INFO    SenderThread:2033 [file_pusher.py:join():176] waiting for file pusher
+2023-03-06 17:28:35,819 INFO    MainThread:1719 [wandb_run.py:_on_finish():1991] got exit ret: done: true
+exit_result {
+}
+file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 37976
+  total_bytes: 37976
+}
+local_info {
+}
+
+2023-03-06 17:28:35,924 INFO    HandlerThread:2033 [handler.py:finish():806] shutting down handler
+2023-03-06 17:28:36,409 INFO    WriterThread:2033 [datastore.py:close():279] close: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_172737-1swmg546/run-1swmg546.wandb
+2023-03-06 17:28:36,818 INFO    SenderThread:2033 [sender.py:finish():1114] shutting down sender
+2023-03-06 17:28:36,818 INFO    SenderThread:2033 [file_pusher.py:finish():171] shutting down file pusher
+2023-03-06 17:28:36,818 INFO    SenderThread:2033 [file_pusher.py:join():176] waiting for file pusher
+2023-03-06 17:28:36,926 INFO    MainThread:1719 [wandb_run.py:_footer_history_summary_info():3099] rendering history
+2023-03-06 17:28:36,928 INFO    MainThread:1719 [wandb_run.py:_footer_history_summary_info():3131] rendering summary
+2023-03-06 17:28:36,935 INFO    MainThread:1719 [wandb_run.py:_footer_sync_info():3055] logging synced files

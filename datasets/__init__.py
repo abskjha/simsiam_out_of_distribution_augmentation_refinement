@@ -2,6 +2,7 @@ import torch
 import torchvision
 from .random_dataset import RandomDataset
 from .imagenet100 import ImageNet100
+from .imagenet100_aug_refine import ImageNet100_aug_refine
 import os
 this_dir, this_filename = os.path.split(__file__)
 
@@ -22,6 +23,9 @@ def get_dataset(dataset, data_dir, transform, train=True, download=False, debug_
     elif dataset == 'imagenet100':
 #         print(os.path.join(this_dir, 'imagenet100.txt'))
         dataset = ImageNet100(subset_file=os.path.join(this_dir, 'imagenet100.txt'), root=data_dir, split='train' if train == True else 'val', transform=transform)
+    elif dataset == 'imagenet100_aug_refine':
+#         print(os.path.join(this_dir, 'imagenet100.txt'))
+        dataset = ImageNet100_aug_refine(subset_file=os.path.join(this_dir, 'imagenet100.txt'), root=data_dir, split='train' if train == True else 'val', transform=transform)
     elif dataset == 'random':
         dataset = RandomDataset()
     elif dataset == 'mscoco':

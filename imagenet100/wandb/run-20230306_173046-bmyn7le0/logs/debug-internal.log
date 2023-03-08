@@ -1,0 +1,150 @@
+2023-03-06 17:30:46,397 INFO    MainThread:22816 [internal.py:wandb_internal():93] W&B internal server running at pid: 22816, started at: 2023-03-06 17:30:46.396285
+2023-03-06 17:30:46,402 INFO    WriterThread:22816 [datastore.py:open_for_write():75] open: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_173046-bmyn7le0/run-bmyn7le0.wandb
+2023-03-06 17:30:46,407 DEBUG   SenderThread:22816 [sender.py:send():236] send: header
+2023-03-06 17:30:46,435 DEBUG   SenderThread:22816 [sender.py:send():236] send: run
+2023-03-06 17:30:46,655 DEBUG   HandlerThread:22816 [handler.py:handle_request():140] handle_request: check_version
+2023-03-06 17:30:46,676 INFO    SenderThread:22816 [dir_watcher.py:__init__():216] watching files in: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_173046-bmyn7le0/files
+2023-03-06 17:30:46,678 INFO    SenderThread:22816 [sender.py:_start_run_threads():818] run started: bmyn7le0 with start time 1678120246
+2023-03-06 17:30:46,678 DEBUG   SenderThread:22816 [sender.py:send():236] send: summary
+2023-03-06 17:30:46,683 INFO    SenderThread:22816 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:30:46,684 DEBUG   SenderThread:22816 [sender.py:send_request():250] send_request: check_version
+2023-03-06 17:30:46,753 DEBUG   HandlerThread:22816 [handler.py:handle_request():140] handle_request: run_start
+2023-03-06 17:30:46,761 DEBUG   HandlerThread:22816 [meta.py:__init__():35] meta init
+2023-03-06 17:30:46,761 DEBUG   HandlerThread:22816 [meta.py:__init__():49] meta init done
+2023-03-06 17:30:46,761 DEBUG   HandlerThread:22816 [meta.py:probe():209] probe
+2023-03-06 17:30:46,768 DEBUG   HandlerThread:22816 [meta.py:_setup_git():199] setup git
+2023-03-06 17:30:46,824 DEBUG   HandlerThread:22816 [meta.py:_setup_git():206] setup git done
+2023-03-06 17:30:46,824 DEBUG   HandlerThread:22816 [meta.py:_save_pip():53] save pip
+2023-03-06 17:30:46,826 DEBUG   HandlerThread:22816 [meta.py:_save_pip():67] save pip done
+2023-03-06 17:30:46,826 DEBUG   HandlerThread:22816 [meta.py:_save_conda():74] save conda
+2023-03-06 17:30:47,680 INFO    Thread-8  :22816 [dir_watcher.py:_on_file_created():269] file/dir created: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_173046-bmyn7le0/files/requirements.txt
+2023-03-06 17:30:47,681 INFO    Thread-8  :22816 [dir_watcher.py:_on_file_created():269] file/dir created: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_173046-bmyn7le0/files/wandb-summary.json
+2023-03-06 17:30:47,681 INFO    Thread-8  :22816 [dir_watcher.py:_on_file_created():269] file/dir created: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_173046-bmyn7le0/files/conda-environment.yaml
+2023-03-06 17:30:50,101 DEBUG   HandlerThread:22816 [meta.py:_save_conda():84] save conda done
+2023-03-06 17:30:50,102 DEBUG   HandlerThread:22816 [meta.py:probe():247] probe done
+2023-03-06 17:30:50,206 DEBUG   SenderThread:22816 [sender.py:send():236] send: files
+2023-03-06 17:30:50,206 INFO    SenderThread:22816 [sender.py:_save_file():952] saving file wandb-metadata.json with policy now
+2023-03-06 17:30:50,216 DEBUG   HandlerThread:22816 [handler.py:handle_request():140] handle_request: stop_status
+2023-03-06 17:30:50,216 DEBUG   SenderThread:22816 [sender.py:send_request():250] send_request: stop_status
+2023-03-06 17:30:50,363 DEBUG   SenderThread:22816 [sender.py:send():236] send: telemetry
+2023-03-06 17:30:50,363 DEBUG   SenderThread:22816 [sender.py:send():236] send: config
+2023-03-06 17:30:50,364 DEBUG   SenderThread:22816 [sender.py:send():236] send: telemetry
+2023-03-06 17:30:50,683 INFO    Thread-8  :22816 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_173046-bmyn7le0/files/conda-environment.yaml
+2023-03-06 17:30:50,683 INFO    Thread-8  :22816 [dir_watcher.py:_on_file_created():269] file/dir created: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_173046-bmyn7le0/files/output.log
+2023-03-06 17:30:50,683 INFO    Thread-8  :22816 [dir_watcher.py:_on_file_created():269] file/dir created: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_173046-bmyn7le0/files/wandb-metadata.json
+2023-03-06 17:30:50,707 INFO    Thread-12 :22816 [upload_job.py:push():138] Uploaded file /tmp/tmptwxjeh53wandb/8lxf4kxz-wandb-metadata.json
+2023-03-06 17:30:52,686 INFO    Thread-8  :22816 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_173046-bmyn7le0/files/output.log
+2023-03-06 17:30:52,730 DEBUG   HandlerThread:22816 [handler.py:handle_request():140] handle_request: poll_exit
+2023-03-06 17:30:52,730 DEBUG   SenderThread:22816 [sender.py:send():236] send: exit
+2023-03-06 17:30:52,730 INFO    SenderThread:22816 [sender.py:send_exit():372] handling exit code: 1
+2023-03-06 17:30:52,731 INFO    SenderThread:22816 [sender.py:send_exit():374] handling runtime: 5
+2023-03-06 17:30:52,733 INFO    SenderThread:22816 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:30:52,733 INFO    SenderThread:22816 [sender.py:send_exit():380] send defer
+2023-03-06 17:30:52,733 DEBUG   SenderThread:22816 [sender.py:send_request():250] send_request: poll_exit
+2023-03-06 17:30:52,734 DEBUG   HandlerThread:22816 [handler.py:handle_request():140] handle_request: defer
+2023-03-06 17:30:52,734 INFO    HandlerThread:22816 [handler.py:handle_request_defer():163] handle defer: 0
+2023-03-06 17:30:52,734 DEBUG   SenderThread:22816 [sender.py:send_request():250] send_request: defer
+2023-03-06 17:30:52,734 INFO    SenderThread:22816 [sender.py:send_request_defer():389] handle sender defer: 0
+2023-03-06 17:30:52,734 INFO    SenderThread:22816 [sender.py:transition_state():393] send defer: 1
+2023-03-06 17:30:52,735 DEBUG   HandlerThread:22816 [handler.py:handle_request():140] handle_request: defer
+2023-03-06 17:30:52,735 INFO    HandlerThread:22816 [handler.py:handle_request_defer():163] handle defer: 1
+2023-03-06 17:30:52,824 DEBUG   SenderThread:22816 [sender.py:send_request():250] send_request: defer
+2023-03-06 17:30:52,825 INFO    SenderThread:22816 [sender.py:send_request_defer():389] handle sender defer: 1
+2023-03-06 17:30:52,825 INFO    SenderThread:22816 [sender.py:transition_state():393] send defer: 2
+2023-03-06 17:30:52,825 DEBUG   SenderThread:22816 [sender.py:send():236] send: stats
+2023-03-06 17:30:52,825 DEBUG   HandlerThread:22816 [handler.py:handle_request():140] handle_request: defer
+2023-03-06 17:30:52,825 INFO    HandlerThread:22816 [handler.py:handle_request_defer():163] handle defer: 2
+2023-03-06 17:30:52,825 DEBUG   SenderThread:22816 [sender.py:send_request():250] send_request: defer
+2023-03-06 17:30:52,825 INFO    SenderThread:22816 [sender.py:send_request_defer():389] handle sender defer: 2
+2023-03-06 17:30:52,825 INFO    SenderThread:22816 [sender.py:transition_state():393] send defer: 3
+2023-03-06 17:30:52,826 DEBUG   HandlerThread:22816 [handler.py:handle_request():140] handle_request: defer
+2023-03-06 17:30:52,826 INFO    HandlerThread:22816 [handler.py:handle_request_defer():163] handle defer: 3
+2023-03-06 17:30:52,826 DEBUG   SenderThread:22816 [sender.py:send_request():250] send_request: defer
+2023-03-06 17:30:52,826 INFO    SenderThread:22816 [sender.py:send_request_defer():389] handle sender defer: 3
+2023-03-06 17:30:52,826 INFO    SenderThread:22816 [sender.py:transition_state():393] send defer: 4
+2023-03-06 17:30:52,826 DEBUG   HandlerThread:22816 [handler.py:handle_request():140] handle_request: defer
+2023-03-06 17:30:52,826 INFO    HandlerThread:22816 [handler.py:handle_request_defer():163] handle defer: 4
+2023-03-06 17:30:52,826 DEBUG   SenderThread:22816 [sender.py:send():236] send: summary
+2023-03-06 17:30:52,828 INFO    SenderThread:22816 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 17:30:52,828 DEBUG   SenderThread:22816 [sender.py:send_request():250] send_request: defer
+2023-03-06 17:30:52,828 INFO    SenderThread:22816 [sender.py:send_request_defer():389] handle sender defer: 4
+2023-03-06 17:30:52,828 INFO    SenderThread:22816 [sender.py:transition_state():393] send defer: 5
+2023-03-06 17:30:52,829 DEBUG   HandlerThread:22816 [handler.py:handle_request():140] handle_request: defer
+2023-03-06 17:30:52,829 INFO    HandlerThread:22816 [handler.py:handle_request_defer():163] handle defer: 5
+2023-03-06 17:30:52,829 DEBUG   SenderThread:22816 [sender.py:send_request():250] send_request: defer
+2023-03-06 17:30:52,829 INFO    SenderThread:22816 [sender.py:send_request_defer():389] handle sender defer: 5
+2023-03-06 17:30:52,835 DEBUG   HandlerThread:22816 [handler.py:handle_request():140] handle_request: poll_exit
+2023-03-06 17:30:53,034 INFO    SenderThread:22816 [sender.py:transition_state():393] send defer: 6
+2023-03-06 17:30:53,035 DEBUG   SenderThread:22816 [sender.py:send_request():250] send_request: poll_exit
+2023-03-06 17:30:53,035 DEBUG   HandlerThread:22816 [handler.py:handle_request():140] handle_request: defer
+2023-03-06 17:30:53,035 INFO    HandlerThread:22816 [handler.py:handle_request_defer():163] handle defer: 6
+2023-03-06 17:30:53,035 DEBUG   SenderThread:22816 [sender.py:send_request():250] send_request: defer
+2023-03-06 17:30:53,035 INFO    SenderThread:22816 [sender.py:send_request_defer():389] handle sender defer: 6
+2023-03-06 17:30:53,035 INFO    SenderThread:22816 [dir_watcher.py:finish():353] shutting down directory watcher
+2023-03-06 17:30:53,136 DEBUG   HandlerThread:22816 [handler.py:handle_request():140] handle_request: poll_exit
+2023-03-06 17:30:53,688 INFO    SenderThread:22816 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_173046-bmyn7le0/files/config.yaml
+2023-03-06 17:30:53,688 INFO    SenderThread:22816 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_173046-bmyn7le0/files/wandb-summary.json
+2023-03-06 17:30:53,688 INFO    SenderThread:22816 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_173046-bmyn7le0/files/output.log
+2023-03-06 17:30:53,688 INFO    SenderThread:22816 [dir_watcher.py:finish():383] scan: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_173046-bmyn7le0/files
+2023-03-06 17:30:53,689 INFO    SenderThread:22816 [dir_watcher.py:finish():397] scan save: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_173046-bmyn7le0/files/config.yaml config.yaml
+2023-03-06 17:30:53,689 INFO    SenderThread:22816 [dir_watcher.py:finish():397] scan save: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_173046-bmyn7le0/files/wandb-summary.json wandb-summary.json
+2023-03-06 17:30:53,692 INFO    SenderThread:22816 [dir_watcher.py:finish():397] scan save: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_173046-bmyn7le0/files/requirements.txt requirements.txt
+2023-03-06 17:30:53,695 INFO    SenderThread:22816 [dir_watcher.py:finish():397] scan save: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_173046-bmyn7le0/files/conda-environment.yaml conda-environment.yaml
+2023-03-06 17:30:53,695 INFO    SenderThread:22816 [dir_watcher.py:finish():397] scan save: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_173046-bmyn7le0/files/wandb-metadata.json wandb-metadata.json
+2023-03-06 17:30:53,696 INFO    SenderThread:22816 [dir_watcher.py:finish():397] scan save: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_173046-bmyn7le0/files/output.log output.log
+2023-03-06 17:30:53,701 INFO    SenderThread:22816 [sender.py:transition_state():393] send defer: 7
+2023-03-06 17:30:53,702 DEBUG   SenderThread:22816 [sender.py:send_request():250] send_request: poll_exit
+2023-03-06 17:30:53,707 DEBUG   HandlerThread:22816 [handler.py:handle_request():140] handle_request: defer
+2023-03-06 17:30:53,707 INFO    HandlerThread:22816 [handler.py:handle_request_defer():163] handle defer: 7
+2023-03-06 17:30:53,707 DEBUG   SenderThread:22816 [sender.py:send_request():250] send_request: defer
+2023-03-06 17:30:53,707 INFO    SenderThread:22816 [sender.py:send_request_defer():389] handle sender defer: 7
+2023-03-06 17:30:53,708 INFO    SenderThread:22816 [file_pusher.py:finish():171] shutting down file pusher
+2023-03-06 17:30:53,804 DEBUG   HandlerThread:22816 [handler.py:handle_request():140] handle_request: poll_exit
+2023-03-06 17:30:53,804 DEBUG   SenderThread:22816 [sender.py:send_request():250] send_request: poll_exit
+2023-03-06 17:30:53,906 DEBUG   HandlerThread:22816 [handler.py:handle_request():140] handle_request: poll_exit
+2023-03-06 17:30:53,907 DEBUG   SenderThread:22816 [sender.py:send_request():250] send_request: poll_exit
+2023-03-06 17:30:54,008 DEBUG   HandlerThread:22816 [handler.py:handle_request():140] handle_request: poll_exit
+2023-03-06 17:30:54,009 DEBUG   SenderThread:22816 [sender.py:send_request():250] send_request: poll_exit
+2023-03-06 17:30:54,111 DEBUG   HandlerThread:22816 [handler.py:handle_request():140] handle_request: poll_exit
+2023-03-06 17:30:54,111 DEBUG   SenderThread:22816 [sender.py:send_request():250] send_request: poll_exit
+2023-03-06 17:30:54,169 INFO    Thread-13 :22816 [upload_job.py:push():138] Uploaded file /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_173046-bmyn7le0/files/config.yaml
+2023-03-06 17:30:54,189 INFO    Thread-16 :22816 [upload_job.py:push():138] Uploaded file /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_173046-bmyn7le0/files/conda-environment.yaml
+2023-03-06 17:30:54,196 INFO    Thread-15 :22816 [upload_job.py:push():138] Uploaded file /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_173046-bmyn7le0/files/requirements.txt
+2023-03-06 17:30:54,213 DEBUG   HandlerThread:22816 [handler.py:handle_request():140] handle_request: poll_exit
+2023-03-06 17:30:54,213 DEBUG   SenderThread:22816 [sender.py:send_request():250] send_request: poll_exit
+2023-03-06 17:30:54,215 INFO    Thread-14 :22816 [upload_job.py:push():138] Uploaded file /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_173046-bmyn7le0/files/wandb-summary.json
+2023-03-06 17:30:54,217 INFO    Thread-17 :22816 [upload_job.py:push():138] Uploaded file /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_173046-bmyn7le0/files/output.log
+2023-03-06 17:30:54,315 DEBUG   HandlerThread:22816 [handler.py:handle_request():140] handle_request: poll_exit
+2023-03-06 17:30:54,316 DEBUG   SenderThread:22816 [sender.py:send_request():250] send_request: poll_exit
+2023-03-06 17:30:54,417 INFO    Thread-7  :22816 [sender.py:transition_state():393] send defer: 8
+2023-03-06 17:30:54,418 DEBUG   HandlerThread:22816 [handler.py:handle_request():140] handle_request: poll_exit
+2023-03-06 17:30:54,418 DEBUG   HandlerThread:22816 [handler.py:handle_request():140] handle_request: defer
+2023-03-06 17:30:54,418 DEBUG   SenderThread:22816 [sender.py:send_request():250] send_request: poll_exit
+2023-03-06 17:30:54,418 INFO    HandlerThread:22816 [handler.py:handle_request_defer():163] handle defer: 8
+2023-03-06 17:30:54,418 DEBUG   SenderThread:22816 [sender.py:send_request():250] send_request: defer
+2023-03-06 17:30:54,419 INFO    SenderThread:22816 [sender.py:send_request_defer():389] handle sender defer: 8
+2023-03-06 17:30:54,520 DEBUG   HandlerThread:22816 [handler.py:handle_request():140] handle_request: poll_exit
+2023-03-06 17:30:54,880 INFO    SenderThread:22816 [sender.py:transition_state():393] send defer: 9
+2023-03-06 17:30:54,881 DEBUG   SenderThread:22816 [sender.py:send_request():250] send_request: poll_exit
+2023-03-06 17:30:54,881 DEBUG   HandlerThread:22816 [handler.py:handle_request():140] handle_request: defer
+2023-03-06 17:30:54,881 INFO    HandlerThread:22816 [handler.py:handle_request_defer():163] handle defer: 9
+2023-03-06 17:30:54,882 DEBUG   SenderThread:22816 [sender.py:send_request():250] send_request: defer
+2023-03-06 17:30:54,882 INFO    SenderThread:22816 [sender.py:send_request_defer():389] handle sender defer: 9
+2023-03-06 17:30:54,882 INFO    SenderThread:22816 [sender.py:transition_state():393] send defer: 10
+2023-03-06 17:30:54,882 DEBUG   SenderThread:22816 [sender.py:send():236] send: final
+2023-03-06 17:30:54,882 DEBUG   HandlerThread:22816 [handler.py:handle_request():140] handle_request: defer
+2023-03-06 17:30:54,883 DEBUG   SenderThread:22816 [sender.py:send():236] send: footer
+2023-03-06 17:30:54,883 INFO    HandlerThread:22816 [handler.py:handle_request_defer():163] handle defer: 10
+2023-03-06 17:30:54,883 DEBUG   SenderThread:22816 [sender.py:send_request():250] send_request: defer
+2023-03-06 17:30:54,883 INFO    SenderThread:22816 [sender.py:send_request_defer():389] handle sender defer: 10
+2023-03-06 17:30:54,983 DEBUG   HandlerThread:22816 [handler.py:handle_request():140] handle_request: poll_exit
+2023-03-06 17:30:54,983 DEBUG   SenderThread:22816 [sender.py:send_request():250] send_request: poll_exit
+2023-03-06 17:30:54,983 INFO    SenderThread:22816 [file_pusher.py:join():176] waiting for file pusher
+2023-03-06 17:30:55,423 DEBUG   HandlerThread:22816 [handler.py:handle_request():140] handle_request: sampled_history
+2023-03-06 17:30:55,424 DEBUG   HandlerThread:22816 [handler.py:handle_request():140] handle_request: get_summary
+2023-03-06 17:30:55,425 DEBUG   HandlerThread:22816 [handler.py:handle_request():140] handle_request: shutdown
+2023-03-06 17:30:55,425 INFO    HandlerThread:22816 [handler.py:finish():806] shutting down handler
+2023-03-06 17:30:55,883 INFO    WriterThread:22816 [datastore.py:close():279] close: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_173046-bmyn7le0/run-bmyn7le0.wandb
+2023-03-06 17:30:56,321 INFO    SenderThread:22816 [sender.py:finish():1114] shutting down sender
+2023-03-06 17:30:56,321 INFO    SenderThread:22816 [file_pusher.py:finish():171] shutting down file pusher
+2023-03-06 17:30:56,321 INFO    SenderThread:22816 [file_pusher.py:join():176] waiting for file pusher

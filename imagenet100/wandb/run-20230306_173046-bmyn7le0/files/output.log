@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "main_simsiam_imagenet100_ood_aug_remove_samples_during_train.py", line 748, in <module>
+    main()
+  File "main_simsiam_imagenet100_ood_aug_remove_samples_during_train.py", line 157, in main
+    utils.init_distributed_mode(args)
+  File ".././utils.py", line 492, in init_distributed_mode
+    rank=args.rank,
+  File "/data/leuven/346/vsc34686/anaconda3/envs/npy36/lib/python3.6/site-packages/torch/distributed/distributed_c10d.py", line 436, in init_process_group
+    store, rank, world_size = next(rendezvous_iterator)
+  File "/data/leuven/346/vsc34686/anaconda3/envs/npy36/lib/python3.6/site-packages/torch/distributed/rendezvous.py", line 179, in _env_rendezvous_handler
+    store = TCPStore(master_addr, master_port, world_size, start_daemon, timeout)
+RuntimeError: Permission denied

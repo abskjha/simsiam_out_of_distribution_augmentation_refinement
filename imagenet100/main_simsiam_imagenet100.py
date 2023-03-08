@@ -395,7 +395,7 @@ def train(train_loader, model, criterion, optimizer, epoch, args, memory_loader,
 
         # compute output and loss
         p1, p2, z1, z2 = model(x1=images[0], x2=images[1])
-        loss_naive = -(criterion(p1, z2).mean() + criterion(p2, z1).mean()) * 0.5
+        loss_naive = -(criterion(p1, z2.detach()).mean() + criterion(p2, z1.detach()).mean()) * 0.5
                
         # loss = -(criterion(p1, z2).mean() + criterion(p2, z1).mean()) * 0.5
         

@@ -1,0 +1,3 @@
+
+| distributed init (rank 2): env://
+main_simsiam_imagenet100_ood_aug_loss_weighing.py:162: UserWarning: You have chosen a specific GPU. This will completely disable data parallelism.

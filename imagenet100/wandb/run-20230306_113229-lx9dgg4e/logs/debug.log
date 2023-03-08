@@ -1,0 +1,214 @@
+2023-03-06 11:32:29,759 INFO    MainThread:33648 [wandb_setup.py:_flush():76] Configure stats pid to 33648
+2023-03-06 11:32:29,759 INFO    MainThread:33648 [wandb_setup.py:_flush():76] Loading settings from /user/leuven/346/vsc34686/.config/wandb/settings
+2023-03-06 11:32:29,759 INFO    MainThread:33648 [wandb_setup.py:_flush():76] Loading settings from /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/settings
+2023-03-06 11:32:29,759 INFO    MainThread:33648 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-03-06 11:32:29,759 INFO    MainThread:33648 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'imagenet100/main_simsiam_imagenet100_ood_aug.py', 'program': 'main_simsiam_imagenet100_ood_aug.py'}
+2023-03-06 11:32:29,760 INFO    MainThread:33648 [wandb_init.py:_log_setup():461] Logging user logs to /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113229-lx9dgg4e/logs/debug.log
+2023-03-06 11:32:29,760 INFO    MainThread:33648 [wandb_init.py:_log_setup():462] Logging internal logs to /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113229-lx9dgg4e/logs/debug-internal.log
+2023-03-06 11:32:29,760 INFO    MainThread:33648 [wandb_init.py:init():495] calling init triggers
+2023-03-06 11:32:29,760 INFO    MainThread:33648 [wandb_init.py:init():499] wandb.init called with sweep_config: {}
+config: {}
+2023-03-06 11:32:29,760 INFO    MainThread:33648 [wandb_init.py:init():548] starting backend
+2023-03-06 11:32:29,760 INFO    MainThread:33648 [backend.py:_multiprocessing_setup():99] multiprocessing start_methods=fork,spawn,forkserver, using: fork
+2023-03-06 11:32:29,765 INFO    MainThread:33648 [backend.py:ensure_launched():217] starting backend process...
+2023-03-06 11:32:29,773 INFO    MainThread:33648 [backend.py:ensure_launched():222] started backend process with pid: 34121
+2023-03-06 11:32:29,774 INFO    MainThread:33648 [wandb_init.py:init():558] backend started and connected
+2023-03-06 11:32:29,777 INFO    MainThread:34121 [internal.py:wandb_internal():93] W&B internal server running at pid: 34121, started at: 2023-03-06 11:32:29.775316
+2023-03-06 11:32:29,779 INFO    MainThread:33648 [wandb_init.py:init():634] updated telemetry
+2023-03-06 11:32:29,780 INFO    WriterThread:34121 [datastore.py:open_for_write():75] open: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113229-lx9dgg4e/run-lx9dgg4e.wandb
+2023-03-06 11:32:29,810 INFO    MainThread:33648 [wandb_init.py:init():666] communicating run to backend with 30 second timeout
+2023-03-06 11:32:30,029 INFO    MainThread:33648 [wandb_run.py:_on_init():1919] communicating current version
+2023-03-06 11:32:30,048 INFO    SenderThread:34121 [dir_watcher.py:__init__():216] watching files in: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113229-lx9dgg4e/files
+2023-03-06 11:32:30,049 INFO    SenderThread:34121 [sender.py:_start_run_threads():818] run started: lx9dgg4e with start time 1678098749
+2023-03-06 11:32:30,051 INFO    SenderThread:34121 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 11:32:30,109 INFO    MainThread:33648 [wandb_run.py:_on_init():1923] got version response upgrade_message: "wandb version 0.13.10 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2023-03-06 11:32:30,109 INFO    MainThread:33648 [wandb_init.py:init():700] starting run threads in backend
+2023-03-06 11:32:31,052 INFO    Thread-8  :34121 [dir_watcher.py:_on_file_created():269] file/dir created: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113229-lx9dgg4e/files/wandb-summary.json
+2023-03-06 11:32:31,052 INFO    Thread-8  :34121 [dir_watcher.py:_on_file_created():269] file/dir created: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113229-lx9dgg4e/files/requirements.txt
+2023-03-06 11:32:31,052 INFO    Thread-8  :34121 [dir_watcher.py:_on_file_created():269] file/dir created: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113229-lx9dgg4e/files/conda-environment.yaml
+2023-03-06 11:32:34,607 INFO    SenderThread:34121 [sender.py:_save_file():952] saving file wandb-metadata.json with policy now
+2023-03-06 11:32:34,616 INFO    MainThread:33648 [wandb_run.py:_console_start():1893] atexit reg
+2023-03-06 11:32:34,617 INFO    MainThread:33648 [wandb_run.py:_redirect():1766] redirect: SettingsConsole.REDIRECT
+2023-03-06 11:32:34,618 INFO    MainThread:33648 [wandb_run.py:_redirect():1771] Redirecting console.
+2023-03-06 11:32:34,620 INFO    MainThread:33648 [wandb_run.py:_redirect():1827] Redirects installed.
+2023-03-06 11:32:34,620 INFO    MainThread:33648 [wandb_init.py:init():732] run started, returning control to user process
+2023-03-06 11:32:34,653 INFO    MainThread:33648 [wandb_run.py:_config_callback():1131] config_cb None None {'data': '/scratch/leuven/346/vsc34686/datasets/Imagenet_downloads/', 'dataset': 'imagenet100', 'arch': 'resnet50', 'workers': 30, 'epochs': 1000, 'start_epoch': 0, 'batch_size': 8, 'lr': 0.03, 'momentum': 0.9, 'weight_decay': 0.0001, 'print_freq': 10, 'resume': '', 'world_size': 1, 'rank': 0, 'dist_url': 'env://', 'dist_backend': 'nccl', 'local_rank': 0, 'seed': 0, 'gpu': None, 'multiprocessing_distributed': False, 'dim': 2048, 'pred_dim': 512, 'fix_pred_lr': True, 'output_dir': '/scratch/leuven/346/vsc34686/simsiam_spatial_augmentations/save/main_simsiam_imagenet100_ood_aug', 'saveckp_freq': 10}
+2023-03-06 11:32:35,055 INFO    Thread-8  :34121 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113229-lx9dgg4e/files/conda-environment.yaml
+2023-03-06 11:32:35,056 INFO    Thread-8  :34121 [dir_watcher.py:_on_file_created():269] file/dir created: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113229-lx9dgg4e/files/output.log
+2023-03-06 11:32:35,056 INFO    Thread-8  :34121 [dir_watcher.py:_on_file_created():269] file/dir created: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113229-lx9dgg4e/files/wandb-metadata.json
+2023-03-06 11:32:35,120 INFO    Thread-12 :34121 [upload_job.py:push():138] Uploaded file /tmp/tmpd7sg4dx7wandb/24kzzp3k-wandb-metadata.json
+2023-03-06 11:32:40,194 INFO    MainThread:33648 [wandb_run.py:_atexit_cleanup():1862] got exitcode: 1
+2023-03-06 11:32:40,196 INFO    MainThread:33648 [wandb_run.py:_restore():1834] restore
+2023-03-06 11:32:42,670 INFO    SenderThread:34121 [sender.py:send_exit():372] handling exit code: 1
+2023-03-06 11:32:42,671 INFO    SenderThread:34121 [sender.py:send_exit():374] handling runtime: 12
+2023-03-06 11:32:42,673 INFO    SenderThread:34121 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 11:32:42,673 INFO    SenderThread:34121 [sender.py:send_exit():380] send defer
+2023-03-06 11:32:42,674 INFO    HandlerThread:34121 [handler.py:handle_request_defer():163] handle defer: 0
+2023-03-06 11:32:42,674 INFO    MainThread:33648 [wandb_run.py:_on_finish():1991] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 1225
+  total_bytes: 1225
+}
+
+2023-03-06 11:32:42,674 INFO    SenderThread:34121 [sender.py:send_request_defer():389] handle sender defer: 0
+2023-03-06 11:32:42,674 INFO    SenderThread:34121 [sender.py:transition_state():393] send defer: 1
+2023-03-06 11:32:42,674 INFO    HandlerThread:34121 [handler.py:handle_request_defer():163] handle defer: 1
+2023-03-06 11:32:42,783 INFO    SenderThread:34121 [sender.py:send_request_defer():389] handle sender defer: 1
+2023-03-06 11:32:42,783 INFO    SenderThread:34121 [sender.py:transition_state():393] send defer: 2
+2023-03-06 11:32:42,784 INFO    HandlerThread:34121 [handler.py:handle_request_defer():163] handle defer: 2
+2023-03-06 11:32:42,784 INFO    MainThread:33648 [wandb_run.py:_on_finish():1991] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 1225
+  total_bytes: 1225
+}
+
+2023-03-06 11:32:42,785 INFO    SenderThread:34121 [sender.py:send_request_defer():389] handle sender defer: 2
+2023-03-06 11:32:42,785 INFO    SenderThread:34121 [sender.py:transition_state():393] send defer: 3
+2023-03-06 11:32:42,785 INFO    HandlerThread:34121 [handler.py:handle_request_defer():163] handle defer: 3
+2023-03-06 11:32:42,786 INFO    SenderThread:34121 [sender.py:send_request_defer():389] handle sender defer: 3
+2023-03-06 11:32:42,786 INFO    SenderThread:34121 [sender.py:transition_state():393] send defer: 4
+2023-03-06 11:32:42,786 INFO    HandlerThread:34121 [handler.py:handle_request_defer():163] handle defer: 4
+2023-03-06 11:32:42,788 INFO    SenderThread:34121 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-03-06 11:32:42,788 INFO    SenderThread:34121 [sender.py:send_request_defer():389] handle sender defer: 4
+2023-03-06 11:32:42,788 INFO    SenderThread:34121 [sender.py:transition_state():393] send defer: 5
+2023-03-06 11:32:42,789 INFO    HandlerThread:34121 [handler.py:handle_request_defer():163] handle defer: 5
+2023-03-06 11:32:42,789 INFO    SenderThread:34121 [sender.py:send_request_defer():389] handle sender defer: 5
+2023-03-06 11:32:42,979 INFO    SenderThread:34121 [sender.py:transition_state():393] send defer: 6
+2023-03-06 11:32:42,980 INFO    HandlerThread:34121 [handler.py:handle_request_defer():163] handle defer: 6
+2023-03-06 11:32:42,980 INFO    MainThread:33648 [wandb_run.py:_on_finish():1991] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 1225
+  total_bytes: 1225
+}
+
+2023-03-06 11:32:42,980 INFO    SenderThread:34121 [sender.py:send_request_defer():389] handle sender defer: 6
+2023-03-06 11:32:42,980 INFO    SenderThread:34121 [dir_watcher.py:finish():353] shutting down directory watcher
+2023-03-06 11:32:43,059 INFO    SenderThread:34121 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113229-lx9dgg4e/files/config.yaml
+2023-03-06 11:32:43,059 INFO    SenderThread:34121 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113229-lx9dgg4e/files/wandb-summary.json
+2023-03-06 11:32:43,059 INFO    SenderThread:34121 [dir_watcher.py:_on_file_modified():286] file/dir modified: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113229-lx9dgg4e/files/output.log
+2023-03-06 11:32:43,060 INFO    SenderThread:34121 [dir_watcher.py:finish():383] scan: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113229-lx9dgg4e/files
+2023-03-06 11:32:43,060 INFO    SenderThread:34121 [dir_watcher.py:finish():397] scan save: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113229-lx9dgg4e/files/config.yaml config.yaml
+2023-03-06 11:32:43,060 INFO    SenderThread:34121 [dir_watcher.py:finish():397] scan save: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113229-lx9dgg4e/files/wandb-summary.json wandb-summary.json
+2023-03-06 11:32:43,060 INFO    SenderThread:34121 [dir_watcher.py:finish():397] scan save: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113229-lx9dgg4e/files/requirements.txt requirements.txt
+2023-03-06 11:32:43,064 INFO    SenderThread:34121 [dir_watcher.py:finish():397] scan save: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113229-lx9dgg4e/files/conda-environment.yaml conda-environment.yaml
+2023-03-06 11:32:43,067 INFO    SenderThread:34121 [dir_watcher.py:finish():397] scan save: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113229-lx9dgg4e/files/wandb-metadata.json wandb-metadata.json
+2023-03-06 11:32:43,068 INFO    SenderThread:34121 [dir_watcher.py:finish():397] scan save: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113229-lx9dgg4e/files/output.log output.log
+2023-03-06 11:32:43,073 INFO    SenderThread:34121 [sender.py:transition_state():393] send defer: 7
+2023-03-06 11:32:43,079 INFO    HandlerThread:34121 [handler.py:handle_request_defer():163] handle defer: 7
+2023-03-06 11:32:43,079 INFO    SenderThread:34121 [sender.py:send_request_defer():389] handle sender defer: 7
+2023-03-06 11:32:43,079 INFO    SenderThread:34121 [file_pusher.py:finish():171] shutting down file pusher
+2023-03-06 11:32:43,081 INFO    MainThread:33648 [wandb_run.py:_on_finish():1991] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 1225
+  total_bytes: 11248
+}
+
+2023-03-06 11:32:43,183 INFO    MainThread:33648 [wandb_run.py:_on_finish():1991] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 1225
+  total_bytes: 11248
+}
+
+2023-03-06 11:32:43,285 INFO    MainThread:33648 [wandb_run.py:_on_finish():1991] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 8471
+  total_bytes: 11248
+}
+
+2023-03-06 11:32:43,387 INFO    MainThread:33648 [wandb_run.py:_on_finish():1991] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 11248
+  total_bytes: 11248
+}
+
+2023-03-06 11:32:43,489 INFO    MainThread:33648 [wandb_run.py:_on_finish():1991] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 11248
+  total_bytes: 11248
+}
+
+2023-03-06 11:32:43,553 INFO    Thread-14 :34121 [upload_job.py:push():138] Uploaded file /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113229-lx9dgg4e/files/wandb-summary.json
+2023-03-06 11:32:43,554 INFO    Thread-16 :34121 [upload_job.py:push():138] Uploaded file /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113229-lx9dgg4e/files/conda-environment.yaml
+2023-03-06 11:32:43,586 INFO    Thread-13 :34121 [upload_job.py:push():138] Uploaded file /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113229-lx9dgg4e/files/config.yaml
+2023-03-06 11:32:43,590 INFO    MainThread:33648 [wandb_run.py:_on_finish():1991] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 11248
+  total_bytes: 11248
+}
+
+2023-03-06 11:32:43,603 INFO    Thread-17 :34121 [upload_job.py:push():138] Uploaded file /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113229-lx9dgg4e/files/output.log
+2023-03-06 11:32:43,612 INFO    Thread-15 :34121 [upload_job.py:push():138] Uploaded file /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113229-lx9dgg4e/files/requirements.txt
+2023-03-06 11:32:43,692 INFO    MainThread:33648 [wandb_run.py:_on_finish():1991] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 11248
+  total_bytes: 11248
+}
+
+2023-03-06 11:32:43,795 INFO    MainThread:33648 [wandb_run.py:_on_finish():1991] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 11248
+  total_bytes: 11248
+}
+
+2023-03-06 11:32:43,813 INFO    Thread-7  :34121 [sender.py:transition_state():393] send defer: 8
+2023-03-06 11:32:43,813 INFO    HandlerThread:34121 [handler.py:handle_request_defer():163] handle defer: 8
+2023-03-06 11:32:43,813 INFO    SenderThread:34121 [sender.py:send_request_defer():389] handle sender defer: 8
+2023-03-06 11:32:44,233 INFO    SenderThread:34121 [sender.py:transition_state():393] send defer: 9
+2023-03-06 11:32:44,234 INFO    HandlerThread:34121 [handler.py:handle_request_defer():163] handle defer: 9
+2023-03-06 11:32:44,234 INFO    MainThread:33648 [wandb_run.py:_on_finish():1991] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 11248
+  total_bytes: 11248
+}
+
+2023-03-06 11:32:44,234 INFO    SenderThread:34121 [sender.py:send_request_defer():389] handle sender defer: 9
+2023-03-06 11:32:44,234 INFO    SenderThread:34121 [sender.py:transition_state():393] send defer: 10
+2023-03-06 11:32:44,235 INFO    HandlerThread:34121 [handler.py:handle_request_defer():163] handle defer: 10
+2023-03-06 11:32:44,235 INFO    SenderThread:34121 [sender.py:send_request_defer():389] handle sender defer: 10
+2023-03-06 11:32:44,335 INFO    SenderThread:34121 [file_pusher.py:join():176] waiting for file pusher
+2023-03-06 11:32:44,666 INFO    MainThread:33648 [wandb_run.py:_on_finish():1991] got exit ret: done: true
+exit_result {
+}
+file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 11248
+  total_bytes: 11248
+}
+local_info {
+}
+
+2023-03-06 11:32:44,768 INFO    HandlerThread:34121 [handler.py:finish():806] shutting down handler
+2023-03-06 11:32:45,235 INFO    WriterThread:34121 [datastore.py:close():279] close: /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230306_113229-lx9dgg4e/run-lx9dgg4e.wandb
+2023-03-06 11:32:45,666 INFO    SenderThread:34121 [sender.py:finish():1114] shutting down sender
+2023-03-06 11:32:45,666 INFO    SenderThread:34121 [file_pusher.py:finish():171] shutting down file pusher
+2023-03-06 11:32:45,666 INFO    SenderThread:34121 [file_pusher.py:join():176] waiting for file pusher
+2023-03-06 11:32:45,770 INFO    MainThread:33648 [wandb_run.py:_footer_history_summary_info():3099] rendering history
+2023-03-06 11:32:45,770 INFO    MainThread:33648 [wandb_run.py:_footer_history_summary_info():3131] rendering summary
+2023-03-06 11:32:45,775 INFO    MainThread:33648 [wandb_run.py:_footer_sync_info():3055] logging synced files

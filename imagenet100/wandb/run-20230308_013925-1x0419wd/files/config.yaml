@@ -1,0 +1,101 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.12.21
+    framework: torch
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    python_version: 3.6.13
+    start_time: 1678235965
+    t:
+      1:
+      - 1
+      - 41
+      - 51
+      - 55
+      3:
+      - 13
+      4: 3.6.13
+      5: 0.12.21
+      8:
+      - 6
+arch:
+  desc: null
+  value: resnet50
+batch_size:
+  desc: null
+  value: 80
+data:
+  desc: null
+  value: /scratch/leuven/346/vsc34686/datasets/Imagenet_downloads/
+dataset:
+  desc: null
+  value: imagenet100
+dim:
+  desc: null
+  value: 2048
+dist_backend:
+  desc: null
+  value: nccl
+dist_url:
+  desc: null
+  value: env://
+epochs:
+  desc: null
+  value: 1000
+fix_pred_lr:
+  desc: null
+  value: true
+gpu:
+  desc: null
+  value: null
+local_rank:
+  desc: null
+  value: 0
+lr:
+  desc: null
+  value: 0.03
+momentum:
+  desc: null
+  value: 0.9
+multiprocessing_distributed:
+  desc: null
+  value: false
+output_dir:
+  desc: null
+  value: /scratch/leuven/346/vsc34686/simsiam_spatial_augmentations/save/main_simsiam_imagenet100_ood_aug_remove_samples_during_train
+pred_dim:
+  desc: null
+  value: 512
+print_freq:
+  desc: null
+  value: 10
+r_c_arch:
+  desc: null
+  value: resnet18
+rank:
+  desc: null
+  value: 0
+resume:
+  desc: null
+  value: ''
+saveckp_freq:
+  desc: null
+  value: 10
+seed:
+  desc: null
+  value: 0
+start_epoch:
+  desc: null
+  value: 0
+weight_decay:
+  desc: null
+  value: 0.0001
+workers:
+  desc: null
+  value: 30
+world_size:
+  desc: null
+  value: 1

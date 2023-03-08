@@ -1,0 +1,44 @@
+wandb: Currently logged in as: abskjha. Use `wandb login --relogin` to force relogin
+wandb: Currently logged in as: abskjha. Use `wandb login --relogin` to force relogin
+wandb: Currently logged in as: abskjha. Use `wandb login --relogin` to force relogin
+wandb: Currently logged in as: abskjha. Use `wandb login --relogin` to force relogin
+wandb: wandb version 0.13.11 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.12.21
+wandb: Run data is saved locally in /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230308_013925-31dbd55a
+wandb: Run `wandb offline` to turn off syncing.
+wandb: wandb version 0.13.11 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.12.21
+wandb: Run data is saved locally in /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230308_013925-1x0419wd
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run 20230308_013920_main_simsiam_imagenet100_ood_aug_remove_samples_during_train.py
+wandb: ⭐️ View project at https://wandb.ai/abskjha/simsiam_ood_aug_refinement
+wandb: 🚀 View run at https://wandb.ai/abskjha/simsiam_ood_aug_refinement/runs/31dbd55a
+wandb: Syncing run 20230308_013920_main_simsiam_imagenet100_ood_aug_remove_samples_during_train.py
+wandb: ⭐️ View project at https://wandb.ai/abskjha/simsiam_ood_aug_refinement
+wandb: 🚀 View run at https://wandb.ai/abskjha/simsiam_ood_aug_refinement/runs/1x0419wd
+wandb: wandb version 0.13.11 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.12.21
+wandb: Run data is saved locally in /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230308_013925-23nnsc18
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run 20230308_013920_main_simsiam_imagenet100_ood_aug_remove_samples_during_train.py
+wandb: ⭐️ View project at https://wandb.ai/abskjha/simsiam_ood_aug_refinement
+wandb: 🚀 View run at https://wandb.ai/abskjha/simsiam_ood_aug_refinement/runs/23nnsc18
+wandb: wandb version 0.13.11 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.12.21
+wandb: Run data is saved locally in /vsc-hard-mounts/leuven-data/346/vsc34686/ajha/code/visual_representation_learning/simsiam_out_of_distribution_augmentation_refinement/imagenet100/wandb/run-20230308_013926-3mas0ga2
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run 20230308_013920_main_simsiam_imagenet100_ood_aug_remove_samples_during_train.py
+wandb: ⭐️ View project at https://wandb.ai/abskjha/simsiam_ood_aug_refinement
+wandb: 🚀 View run at https://wandb.ai/abskjha/simsiam_ood_aug_refinement/runs/3mas0ga2
+main_simsiam_imagenet100_ood_aug_remove_samples_during_train.py:162: UserWarning: You have chosen a specific GPU. This will completely disable data parallelism.
+  warnings.warn('You have chosen a specific GPU. This will completely '
+main_simsiam_imagenet100_ood_aug_remove_samples_during_train.py:162: UserWarning: You have chosen a specific GPU. This will completely disable data parallelism.
+  warnings.warn('You have chosen a specific GPU. This will completely '
+main_simsiam_imagenet100_ood_aug_remove_samples_during_train.py:162: UserWarning: You have chosen a specific GPU. This will completely disable data parallelism.
+  warnings.warn('You have chosen a specific GPU. This will completely '
+main_simsiam_imagenet100_ood_aug_remove_samples_during_train.py:162: UserWarning: You have chosen a specific GPU. This will completely disable data parallelism.
+  warnings.warn('You have chosen a specific GPU. This will completely '

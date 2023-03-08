@@ -1,0 +1,20 @@
+#!/bin/bash 
+#PBS -A lcomputervision                 # # use your group name here (the example is a created project of VLN task)
+#PBS -N main_simsiam_imagenet100_ood_aug_modify_dataset  # # job name 
+#PBS -l nodes=1:ppn=36:gpus=4:skylake    # # 9 processor with 1 GPU in 1 node, for v100 replace 'skylake' by 'cascadelake'
+#PBS -l partition=gpu                   # # partition name
+#PBS -l mem=20gb                        # # memory required (P100 1GPU can use no more than 45GB RAM)
+#PBS -l walltime=71:59:00               # # estimated time queue service will be split by 1h, 24, 72h, 7d 
+#PBS -M ajha@esat.kuleuven.be           # # email to send notification
+
+
+module load CUDA/10.1.105     # # Load necessary cuda version for your job
+module load cuDNN/7.6.4-CUDA-10.1.105 # # Load necessary cudnn version for your job
+
+# Change to where job was submitted (the script position)
+cd $PBS_O_WORKDIR
+
+# Run local script
+sh job.sh
+
+    

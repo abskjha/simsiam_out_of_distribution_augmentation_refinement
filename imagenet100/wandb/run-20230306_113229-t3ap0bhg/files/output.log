@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "main_simsiam_imagenet100_ood_aug.py", line 668, in <module>
+    main()
+  File "main_simsiam_imagenet100_ood_aug.py", line 152, in main
+    utils.init_distributed_mode(args)
+  File ".././utils.py", line 492, in init_distributed_mode
+    rank=args.rank,
+  File "/data/leuven/346/vsc34686/anaconda3/envs/npy36/lib/python3.6/site-packages/torch/distributed/distributed_c10d.py", line 455, in init_process_group
+    barrier()
+  File "/data/leuven/346/vsc34686/anaconda3/envs/npy36/lib/python3.6/site-packages/torch/distributed/distributed_c10d.py", line 1960, in barrier
+    work = _default_pg.barrier()
+RuntimeError: NCCL error in: /opt/conda/conda-bld/pytorch_1607370120218/work/torch/lib/c10d/ProcessGroupNCCL.cpp:784, invalid usage, NCCL version 2.7.8
